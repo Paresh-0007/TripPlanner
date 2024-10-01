@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripPlanner</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!---------------- HEADER-------------------->
+
+    <header>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./images/logo.png" alt="TripPlanner Logo">
+            </div>
+        </a>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <!-- <li><a href="#">Home</a></li> -->
+                <li class="dropdown">
+                    <a href="#">Hotspots <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./Loction/tarkarli.html">Tarkarli</a></li>
+                        <li><a href="#">Naneghat</a></li>
+                        <li><a href="#">Karnala</a></li>
+                        <li><a href="#">Kondeshwar</a></li>
+                        <li><a href="#">Murud-Janjira</a></li>
+                        <li><a href="#">Bedse Caves</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Categories <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Beaches</a></li>
+                        <li><a href="#">National Parks</a></li>
+                        <li><a href="#">Treks</a></li>
+                        <li><a href="#">Religious Places</a></li>
+                        <li><a href="#">Forts & Caves</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blogs.html">Blogs</a></li>
+                <li><a href="#">Suggestions</a></li>
+                <li><a href="#footer">About Us</a></li>
+                <li><a href="./Signup/index.html" class="sign-up" id="sign-up">Sign Up</a></li>
+                <li><img id="profileImage" src="./images/user.png" style="height: 50px; border-radius: 50px;" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+    <!------------------------ BANNER --------------------------->
+
+    <section class="hero">
+        <h2>DISCOVER HIDDEN GEMS AND LOCAL SECRETS</h2>
+        <p class="tagline">Your Ultimate Guide to Unforgettable Journeys!</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Explore Here...">
+            <button><i class="ri-search-line"></i></button>
+        </div>
+    </section>
+
+    <!----------------------- HIDDEN GEM  ----------------------->
+
+    <section class="hidden-gems">
+        <h2>Take a look at some of the Hidden Gems of Maharashtra</h2>
+        <div class="gem-grid">
+            <div class="gem-card">
+                <img src="./images/gem1.jpg" alt="Hidden Gem 1">
+                <p class="title">Tarkarli Beach</p>
+                A serene beach destination known for its clear waters, Tarkarli Beach offers a perfect getaway for
+                nature lovers and adventure seekers alike.</p>
+                <a href="./Loction/tarkarli.html" class="read-more-link">Read More</a>
+            </div>
+            <div class="gem-card">
+                <img src="./images/gem2.jpg" alt="Hidden Gem 2">
+                <p class="title">Karnala Bird Sanctuary</p>
+                Home to a wide variety of bird species, Karnala Bird Sanctuary is a haven for birdwatchers and those
+                seeking tranquility in nature.</p>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="gem-card">
+                <img src="./images/gem3.jpeg" alt="Hidden Gem 3">
+                <p class="title">Naneghat Trek</p>
+                An ancient mountain pass with historical significance, Naneghat offers breathtaking views and a peek
+                into Maharashtra's rich history.</p>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="gem-card">
+                <img src="./images/gem4.jpg" alt="Hidden Gem 4">
+                <p class="title">Kondeshwar Temple</p>
+                A hidden gem amidst lush greenery, Kondeshwar Temple is a tranquil spot ideal for a spiritual retreat or
+                a peaceful day out.</p>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+        </div>
+        <a href="hotspots.html" class="view-more">View More <span><i class="ri-arrow-right-s-line"></i></span></a>
+    </section>
+
+    <hr class="partition-line">
+
+    <!----------------------- BLOGS ----------------------->
+
+    <section class="blogs">
+        <h2>Latest Blogs</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="./images/blog1.jpg" alt="Top 10 Waterfalls in Maharashtra">
+                <p class="title">Top 10 Waterfalls in Maharashtra</p>
+                <p>Discover the most stunning waterfalls in Maharashtra, perfect for a refreshing getaway and adventure.
+                </p>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="blog-card">
+                <img src="./images/blog2.jpg" alt="Best Places for Trekking in Maharashtra">
+                <p class="title">Best Places for Trekking in Maharashtra</p>
+                <p>Explore the best trekking destinations in Maharashtra, offering breathtaking views and thrilling
+                    experiences.</p>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="blog-card">
+                <img src="./images/blog3.png" alt="Historical Sites to Visit in Maharashtra">
+                <p class="title">Historical Sites to Visit in Maharashtra</p>
+                <p>Uncover the rich history of Maharashtra through its most important historical sites and landmarks.
+                </p>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="blog-card">
+                <img src="./images/blog4.jpg" alt="Caves in Maharashtra">
+                <p class="title">Exploring the Caves of Maharashtra</p>
+                <p>Embark on a journey to explore ancient and mystical caves of Maharashtra, rich with history and
+                    natural beauty.</p>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+        </div>
+        <a href="blogs.html" class="view-more2">View More <span><i class="ri-arrow-right-s-line"></i></span></a>
+    </section>
+
+    <!--------------------------- FOOTER ----------------------------->
+
+    <section class="footer" id="footer">
+        <div class="container footer-content">
+            <div class="about-us">
+                <h4>About Us</h4>
+                <p>Welcome to your insiders guide to authentic travel experiences. Discover hidden gems and essential
+                    tips from locals to explore destinations like never before!</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="./images/instagram.png"
+                            alt="Instagram"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png"
+                            alt="Facebook"></a>
+                    <a href="https://x.com/?lang=en" target="_blank"><img src="./images/x.png" alt="Twitter"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube.png"
+                            alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="query-form">
+                <h4>Have a Query?</h4>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <textarea name="query" placeholder="Write Query"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js" type="module  "></script>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector("nav ul");
+
+menuToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("open");
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Function to fetch user info
+  const fetchUserInfo = async () => {
+    try {
+      const response = await fetch('http://localhost:8000/api/users/user-info', {
+        credentials: 'include' // Use credentials to send cookies with the request
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        
+
+        // Display username and profile image
+        const button = document.getElementById("sign-up");
+        const profileImageElement = document.getElementById("profileImage");
+        button.innerHTML = "Log Out";
+        button.href = "/Login/index.html"
+        profileImageElement.src = `${data.data.avatar}`;
+
+
+        button.addEventListener('click', async (event) => {
+    event.preventDefault(); // Prevent the default action
+    try {
+        const response = await fetch('http://localhost:8000/api/users/logout', {
+            method: 'POST', 
+            credentials: 'include' // Include credentials (cookies) in the request
+        });
+
+        if (response.ok) {
+            alert("User Logged Out Successfully!");
+            // Optionally, redirect to the login page or update the UI
+            window.location.href = "/Login/index.html";
+        } else {
+            alert("Logout failed. Please try again.");
+        }
+    } catch (error) {
+        console.error("Error during logout:", error);
+    }
+});
+
+      } else {
+        //const usernameElement = document.getElementById("username");
+        //usernameElement.textContent = "Guest, Please, LogIn!";
+        document.getElementById("profileImage").src = "./images/user.png";
+      }
+    } catch (error) {
+      console.error("Error fetching user info:", error);
+    }
+  };
+
+  fetchUserInfo();
+});
+
+    </script>
+</body>
+
+</html>

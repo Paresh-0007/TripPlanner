@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #335399, #00ff9d);
+}
+
+h1 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sign-up-page {
+  width: 350px;
+  height: auto;
+  padding: 20px 0px;
+  margin-left: 1px;
+  border-radius: 1rem;
+  background: rgb(235, 235, 235);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.4s;
+}
+
+.sign-up-page:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.sign-up-page h1 {
+  margin-bottom: 25px;
+}
+
+.sign-up-page form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-page form input {
+  width: 250px;
+  height: 35px;
+  margin: 8px;
+  background: rgb(218, 218, 218);
+  border: none;
+  padding-left: 10px;
+  outline: none;
+  transform: all 0.4s;
+}
+
+.sign-up-page form input:focus {
+  background: rgb(194, 194, 194);
+}
+
+.btn {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-page form .btn {
+  width: 250px;
+  height: 35px;
+  margin: 8px;
+  background: #008cba;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.sign-up-page form .btn:hover {
+  background-color: #005f6b;
+  color: #fff;
+}
+
+.link-ar{
+  text-decoration: none;
+  color: #184750;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.link-ar:hover{
+  color: #113840;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Admin Button */
+
+.icons {
+  height: 40px;
+  margin: 10px 0;
+}
+
+.icons span {
+  color: black;
+  font-weight: 600;
+  user-select: none;
+}
+
+.icons div {
+  width: 105px;
+  height: 40px;
+  border: 2px solid #008cba;
+  border-radius: 4px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.icons div:hover{
+  color: white;
+}
+
+.icons path{
+    color: black;
+}
+
+.icons a:visited{
+    color: black;
+}
+
+.icons div:nth-child(2) {
+  border: 2px solid #005f6b;
+}
+
+.icons div i {
+  color: #005f6b;
+  margin: 8px;
+  transition: all 0.4s;
+}
+
+.icons div:hover i {
+  color: #10847ecb;
+}
+
+.icons div:hover:nth-child(1) {
+  background: #005f6b;
+  color: #e2e2e2;
+}
+
+.bi bi-person-fill {
+  margin: 0;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 4px;
+  opacity: 0.8;
+  filter: invert(0.6);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1
+}
+
+input[type="date"]:invalid::-webkit-datetime-edit {
+  color: #999;
+}

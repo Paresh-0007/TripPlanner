@@ -1,0 +1,599 @@
+/***************** NAVBAR ****************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  position: relative;
+  flex-grow: 1;
+  text-align: center;
+  margin-left: 70px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav .sign-up {
+  margin-left: 20px;
+  background-color: #0044cc;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav .sign-up:hover {
+  background-color: #0033a0;
+  transition: all 0.2s ease-in-out;
+}
+
+nav .arrow {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+/************** DROPDOWN ****************/
+
+nav .dropdown:hover .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 200px;
+  z-index: 1000;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/************** BANNER **************/
+
+.hero {
+  font-family: "Roboto", sans-serif;
+  background-image: url("./images/home_bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.hero h2 {
+  font-family: "The Seasons", serif;
+  font-style: bold;
+  font-size: 55px;
+  margin: 0;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 24px;
+  margin: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar {
+  margin-top: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-flex;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  width: 500px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 15px 0 0 15px;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.search-bar button {
+  border: none;
+  background-color: #008cba;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 15px 15px 0;
+}
+
+.search-bar:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hidden-gems {
+  font-family: "Montserrat", sans-serif;
+  padding: 50px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.hidden-gems h2 {
+  font-family: "The Seasons", serif;
+  font-style: italic;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.hidden-gems p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.4;
+}
+
+.view-more {
+  background-color: #184750;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+  border: black;
+  padding: 20px 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.view-more span {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.view-more:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gem-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.gem-card {
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.gem-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.gem-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gem-card p {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.gem-card .title {
+  font-size: 24px;
+  font-family: "The Seasons", serif;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.read-more-link {
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #008cba;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.partition-line {
+  border: none;
+  border-top: 2px solid #ddd;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.blogs {
+  font-family: "Montserrat", sans-serif;
+  padding: 50px;
+  background-color: #184750;
+  text-align: center;
+}
+
+.blogs h2 {
+  font-family: "The Seasons", serif;
+  font-style: italic;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.blog-card {
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.blog-card p.title {
+  font-size: 24px;
+  font-family: "The Seasons", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.read-more-link {
+  display: inline-block;
+  background-color: #008cba;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.read-more-link:hover {
+  background-color: #005f6b;
+  transform: scale(1.05);
+}
+
+.view-more2 {
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #008cba;
+  border: black;
+  padding: 20px 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.view-more2 span {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.view-more2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gems-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gem {
+  width: 150px;
+  height: 150px;
+  background-color: #cfcfcf;
+  border-radius: 10px;
+}
+
+/*************** FOOTER ****************/
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.about-us,
+.query-form {
+  flex: 1;
+}
+
+.about-us h4,
+.query-form h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.social-icons img {
+  width: 35px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.query-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.query-form input,
+.query-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.query-form button {
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.query-form button:hover {
+  background-color: #005f6b;
+  transform: scale(1.05);
+}
+
+/********* Hotspots Page ***********/
+
+.hotspots {
+  font-family: "Montserrat", sans-serif;
+  padding: 50px;
+  background-color: #184750;
+  text-align: center;
+}
+
+.hotspots h2 {
+  font-family: "The Seasons", serif;
+  font-style: bold;
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.hotspot-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hotspot-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  cursor: pointer;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hotspot-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hotspot-item img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.hotspot-info {
+  text-align: left;
+}
+
+.hotspot-info h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  color: #008cba;
+}
+
+.hotspot-info p {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.hotspot-info p strong {
+  font-size: 18px;
+  font-family: "The Seasons", serif;
+  font-style: italic;
+  color: #000;
+}
+
+/* Styles for Stay Tuned Section */
+.stay-tuned {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f8f9fa;
+  border-top: 2px solid #184750;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.stay-tuned-info {
+  flex: 1;
+  text-align: left;
+  margin-right: 40px;
+}
+
+.stay-tuned-info h3 {
+  font-family: "The Seasons", serif;
+  font-size: 36px;
+  margin: 0 0 15px;
+  color: #184750;
+}
+
+.stay-tuned-info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.stay-tuned img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}

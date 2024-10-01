@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Page</title>
+</head>
+<body>
+
+    <div class="sign-up-page">
+        <h1>Sign-Up</h1>
+        <div id="error" class="text-danger"></div>
+        <form id="signup-form" method="post" enctype="multipart/form-data">
+            <input type="text" id="username" name="username" required placeholder="Enter Username">
+            <input type="email" id="email" name="email" required placeholder="Enter E-mail">
+            <input type="password" id="password" name="password" required placeholder="Enter Password">
+            <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password">
+            <input type="file" id="avatar" name="avatar" accept="image/*" required>
+            <img id="avatarPreview" src="" alt="Avatar Preview" style="display: none; max-width: 150px; margin-top: 10px; border-radius: 50%;"/>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <a href="../Login/index.html"><div class="link-ar"><p>Already registered? Log in</p></div></a>
+        </form>
+
+        <div class="icons">
+            <a href="../admin.html">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+                    <i class="bi-person-fill"></i><span>Admin</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById("signup-form");
+        const error = document.getElementById("error");
+        const avatarInput = document.getElementById("avatar");
+        const avatarPreview = document.getElementById("avatarPreview");
+
+        avatarInput.addEventListener("change", (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    avatarPreview.src = e.target.result;
+                    avatarPreview.style.display = "block";
+                };
+                reader.readAsDataURL(file);
+            } else {
+                avatarPreview.src = "";
+                avatarPreview.style.display = "none";
+            }
+        });
+
+        form.addEventListener("submit", async (event) => {
+            event.preventDefault(); // Prevent default form submission
+            console.log("Form submitted"); // Debugging line
+            error.innerHTML = ""; // Clear previous error messages
+            let valid = true;
+
+            // Validate all fields are filled without spaces
+            const fields = [username, email, password, confirmPassword];
+            fields.forEach(field => {
+                if (!field.value.trim()) {
+                    valid = false;
+                    error.innerHTML += `${field.placeholder} is required!<br>`;
+                    field.style.border = "2px solid red";
+                } else {
+                    field.style.border = ""; // Reset border if valid
+                }
+            });
+
+            // Validate password and confirm password match
+            if (password.value !== confirmPassword.value) {
+                valid = false;
+                error.innerHTML += "Passwords do not match!<br>";
+                password.style.border = "2px solid red";
+                confirmPassword.style.border = "2px solid red";
+            }
+
+            // Validate avatar
+            if (!avatarInput.files.length) {
+                valid = false;
+                error.innerHTML += "Avatar is required!<br>";
+                avatarInput.style.border = "2px solid red";
+            } else {
+                avatarInput.style.border = ""; // Reset border if valid
+            }
+
+            if (valid) {
+                const formData = new FormData(form);
+                try {
+                    const response = await fetch('http://localhost:8000/api/users/register', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    
+                    if (response.ok) {
+                        const result = await response.json();
+                        alert("Registration Successful!"); // Debugging line
+                        window.location.href = "../Login/index.html"; // Redirect on success
+                    } else {
+                        const errorMessage = await response.text();
+                        error.innerHTML = "Failed to sign up. " + errorMessage; // Show error from server response
+                        console.log("Error response:", errorMessage); // Debugging line
+                    }
+                } catch (error) {
+                    console.error("Error:", error);
+                    error.innerHTML = "An error occurred. Please try again.";
+                }
+            }
+        });
+    </script>  
+</body>
+</html>

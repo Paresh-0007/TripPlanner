@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - TripPlanner</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet" />
+</head>
+<body>
+    <!---------------- HEADER-------------------->
+
+    <header>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./images/logo.png" alt="TripPlanner Logo">
+            </div>
+        </a>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Hotspots <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Tarkarli</a></li>
+                        <li><a href="#">Naneghat</a></li>
+                        <li><a href="#">Karnala</a></li>
+                        <li><a href="#">Kondeshwar</a></li>
+                        <li><a href="#">Murud-Janjira</a></li>
+                        <li><a href="#">Bedse Caves</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Categories <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Beaches</a></li>
+                        <li><a href="#">National Parks</a></li>
+                        <li><a href="#">Treks</a></li>
+                        <li><a href="#">Religious Places</a></li>
+                        <li><a href="#">Forts & Caves</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blogs.html">Blogs</a></li>
+                <li><a href="#">Suggestions</a></li>
+                <li><a href="#footer">About Us</a></li>
+                <li><a href="./Signup/index.html" class="sign-up">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!------------------- Blogs Card ------------------------->
+
+    <section class="blogs">
+        <h2>Latest Blogs</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="./images/blog1.jpg" alt="Top 10 Waterfalls in Maharashtra" class="blog-image">
+                <div class="blog-content">
+                    <h3>Top 10 Waterfalls in Maharashtra</h3>
+                    <p><strong>Location:</strong> Various Locations<br>
+                       <strong>Summary:</strong> Explore the most spectacular waterfalls in Maharashtra, each offering unique natural beauty and adventure opportunities.</p>
+                    <a href="#" class="read-more-link">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="./images/blog2.jpg" alt="Guide to Maharashtra's Forts" class="blog-image">
+                <div class="blog-content">
+                    <h3>Guide to Maharashtra's Forts</h3>
+                    <p><strong>Location:</strong> Various Locations<br>
+                       <strong>Summary:</strong> Discover the historic forts of Maharashtra, their rich history, and the scenic views they offer.</p>
+                    <a href="#" class="read-more-link">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="./images/blog3.png" alt="Top Beaches in Maharashtra" class="blog-image">
+                <div class="blog-content">
+                    <h3>Top Beaches in Maharashtra</h3>
+                    <p><strong>Location:</strong> Various Locations<br>
+                       <strong>Summary:</strong> A comprehensive guide to the best beaches in Maharashtra, perfect for a relaxing getaway or adventure.</p>
+                    <a href="#" class="read-more-link">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="./images/blog4.jpg" alt="Exploring Maharashtra's Wildlife" class="blog-image">
+                <div class="blog-content">
+                    <h3>Exploring Maharashtra's Wildlife</h3>
+                    <p><strong>Location:</strong> Various Locations<br>
+                       <strong>Summary:</strong> Dive into the diverse wildlife of Maharashtra, including national parks and wildlife sanctuaries.</p>
+                    <a href="#" class="read-more-link">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------- Stay Turned -------------------------->
+
+    <section class="stay-tuned">
+        <div class="stay-tuned-info">
+            <h2>Stay Tuned</h2>
+            <p>Stay tuned for more hidden gems and local secrets! We’re continually discovering and showcasing new and exciting destinations to enrich your travel experiences. Keep an eye out for upcoming features and detailed guides on the most beautiful and unique places to visit. We promise you won’t want to miss what’s coming next!</p>
+        </div>
+        <img src="./images/staytuned.jpg" alt="Stay Tuned Image">
+    </section>
+
+    <!----------------------- Footer -------------------------->
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="about-us">
+                <h4>About Us</h4>
+                <p>Welcome to your insiders guide to authentic travel experiences. Discover hidden gems and essential tips from locals to explore destinations like never before!</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="./images/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="Facebook"></a>
+                    <a href="https://x.com/?lang=en" target="_blank"><img src="./images/x.png" alt="Twitter"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="query-form">
+                <h4>Have a Query?</h4>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <textarea name="query" placeholder="Write Query"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
