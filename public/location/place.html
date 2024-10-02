@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripPlanner</title>
+    <link rel="stylesheet" href="styleloc.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <div class="logo">
+                <img src="../images/logo.png" alt="TripPlanner Logo">
+            </div>
+        </a>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Hotspots <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Tarkarli</a></li>
+                        <li><a href="#">Naneghat</a></li>
+                        <li><a href="#">Karnala</a></li>
+                        <li><a href="#">Kondeshwar</a></li>
+                        <li><a href="#">Murud-Janjira</a></li>
+                        <li><a href="#">Bedse Caves</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Categories <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Beaches</a></li>
+                        <li><a href="#">National Parks</a></li>
+                        <li><a href="#">Treks</a></li>
+                        <li><a href="#">Religious Places</a></li>
+                        <li><a href="#">Forts & Caves</a></li>
+                    </ul>
+                </li>
+                <li><a href="../blogs.html">Blogs</a></li>
+                <li><a href="#">Suggestions</a></li>
+                <li><a href="#footer">About Us</a></li>
+                <!-- <li><a href="./Signup/index.html" class="sign-up">Sign Up</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <h1 id="name">Tarkarli</h1> <!--place name-->
+    </section>
+
+    <section class="content">
+        <!-------------   SLIDER   ------------------>
+
+        <div class="slider-container mt-5">
+            <div class="slider-images">
+                <img id ="img1" src="./tarkarli1.jpg" alt="Image 1">   <!--PLACES-->
+                <img id ="img2" src="./tarkarli2.jpg" alt="Image 2">
+                <img id ="img3" src="./tarkarli3.jpg" alt="Image 3">
+                <img id ="img4" src="./tarkarli3.jpg" alt="Image 3">
+                <!-- <img src="https://via.placeholder.com/1000x500?text=Image+4" alt="Image 4"> -->
+            </div>
+
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <h2 id="descriptionTitle" >About Tarkarli Beach</h2>  <!--heading-->
+        <p id="description">
+            Tarkarli Beach is a serene and beautiful destination located in the Sindhudurg district of Maharashtra.
+            Known for its pristine waters and white sandy shores, it is an ideal spot for nature lovers and adventure
+            enthusiasts. The beach is also famous for water sports like snorkeling, scuba diving, and parasailing. With
+            a rich marine life and stunning coral reefs, Tarkarli Beach offers an unforgettable experience for all
+            visitors.
+        </p>
+
+        <h3>Best Time to Visit</h3>
+        <p id = "bestTime" >
+            The best time to visit Tarkarli Beach is from October to March when the weather is pleasant, and the sea is
+            calm. This period is perfect for enjoying water sports and exploring the natural beauty of the area.
+        </p>
+
+        <h3>Accessibility</h3>
+        <p>
+            Tarkarli Beach is easily accessible by road from major cities in Maharashtra. The nearest railway station is
+            Kudal, located about 45 km away, and the nearest airport is Dabolim Airport in Goa, about 130 km away. Local
+            buses, taxis, and private vehicles can be used to reach the beach from these locations.
+        </p>
+
+        <h3>Budget</h3>
+        <p id="budget">
+            Tarkarli Beach is a budget-friendly destination with accommodations ranging from budget homestays to
+            mid-range resorts. Food and activities like water sports are also reasonably priced, making it an affordable
+            getaway for all types of travelers.
+        </p>
+
+        <h3>Routes</h3>
+        <p>
+        <ul id="transport">
+            <li><strong>From Mumbai:</strong> Take the NH66 towards Malvan, then follow the signs to Tarkarli Beach. The
+                journey is approximately 490 km and takes around 9 hours by road.</li>
+            <li><strong>From Pune:</strong> Take the NH66 towards Malvan. The journey is around 400 km and takes about 8
+                hours by road.</li>
+            <li><strong>From Goa:</strong> Take the NH66 north towards Malvan. Tarkarli Beach is about 130 km from Goa,
+                taking approximately 3-4 hours by road.</li>
+        </ul>
+        </p>
+    </section>
+
+    <h3>Location</h3>
+    <p><span id="region">Tarkarli Beach, Sindhudurg</span>, Maharashtra, India</p>
+    <div class="map" id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44892.49304875367!2d73.46636782492584!3d16.017982287847357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc002678e3801d1%3A0xa2cb4081dd152476!2sTarkarli%20Beach!5e1!3m2!1sen!2sin!4v1725256334608!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0; margin: 0; padding: 0;" alt="Tarkarli Beach Map Loaction"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </section>
+
+    <section class="footer">
+        <div class="container footer-content">
+            <div class="about-us">
+                <h4>About Us</h4>
+                <p>Welcome to your insiders guide to authentic travel experiences. Discover hidden gems and essential
+                    tips from locals to explore destinations like never before!</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="../images/instagram.png"
+                            alt="Instagram"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.png"
+                            alt="Facebook"></a>
+                    <a href="https://x.com/?lang=en" target="_blank"><img src="../images/x.png" alt="Twitter"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="../images/youtube.png"
+                            alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="query-form">
+                <h4>Have a Query?</h4>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <textarea name="query" placeholder="Write Query"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="../script.js"></script>
+    <script>
+        const fillPlaceData = function (placeData) {
+            var name = document.getElementById('name')
+            var img1 = document.getElementById('img1')
+            var img2 = document.getElementById('img2')
+            var img3 = document.getElementById('img3')
+            var img4 = document.getElementById('img4')
+            var descriptionTitle = document.getElementById('descriptionTitle')
+            var description = document.getElementById('description')
+            var transport = document.getElementById('transport')
+            var budget = document.getElementById('budget')
+            var bestTime = document.getElementById('bestTime')
+            var map = document.getElementById('map')
+            var region = document.getElementById('region')
+            console.log(placeData)
+
+            name.innerText = placeData.data.name;
+            img1.src = placeData.data.images[0]
+            img2.src = placeData.data.images[1]
+            img3.src = placeData.data.images[2]
+            img4.src = placeData.data.images[3]
+            descriptionTitle.innerText = `About ${placeData.data.name} Beach`
+            description.innerText = placeData.data.description
+            transport.innerHTML = `<b>By Car : </b><span>${placeData.data.transportation_modes.car}</span><br><b>By Train : </b><span>${placeData.data.transportation_modes.train}</span><br><b>By Bus : </b><span>${placeData.data.transportation_modes.bus}</span>`
+            budget.innerText = placeData.data.minimum_budget
+            bestTime.innerText = placeData.data.best_time_to_visit
+            map.innerHTML = placeData.data.location
+            region.innerText = `${placeData.data.name},${placeData.data.region}`
+        }
+
+        async function fetchPlace(placeId) {
+            try {
+                const response = await fetch(`/api/places/${placeId}`, {
+                    credentials: 'include'
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error fetching place: ${response.status}`);
+                }
+
+                const placeData = await response.json();
+                fillPlaceData(placeData);
+            } catch (error) {
+                console.error('Failed to fetch place data:', error);
+            }
+        }
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const placeId = urlParams.get('id');
+
+        if (placeId) {
+            fetchPlace(placeId);
+        }
+    </script>
+
+</body>
+
+</html>
