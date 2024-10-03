@@ -3,7 +3,6 @@ import cookieParser from "cookie-parser";
 import path from 'path'; // Import path module
 import userRouter from './routes/user.routes.js';
 import placeRouter from './routes/place.routes.js'
-
 const app = express();
 
 // Middleware for parsing JSON and URL-encoded data
@@ -23,7 +22,6 @@ app.use(cookieParser());
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html')); 
 });
-
 // Routes
 
 

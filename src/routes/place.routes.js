@@ -1,11 +1,11 @@
 import { Router } from "express";
-import { getPlaceById } from '../controllers/place.controller.js'
+import { getPlaceById, getPlacesByCategory,fetchPlaces } from '../controllers/place.controller.js'
 
 
 
 const router = Router();
 
-
-router.route('/:id').get(getPlaceById)
-
+router.route('/place/:id').get(getPlaceById)
+router.route('/category/:category').get(getPlacesByCategory);
+router.route('/collection').get(fetchPlaces)
 export default router

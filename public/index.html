@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TripPlanner</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
@@ -30,29 +31,29 @@
                 <li class="dropdown">
                     <a href="#">Hotspots <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./location/place.html?id=66fd523cb5a9cb92e7d4f26c">Elephanta Caves</a></li>
-                        <li><a href="./location/place.html?id=66fd5207b5a9cb92e7d4f268">Bhogwe Beach</a></li>
-                        <li><a href="./location/place.html?id=66fd52d4b5a9cb92e7d4f279">Sanjay Gandhi National Park</a></li>
-                        <li><a href="./location/place.html?id=66fd528ab5a9cb92e7d4f273">Khandoba Temple</a></li>
-                        <li><a href="./location/place.html?id=66fd52b9b5a9cb92e7d4f277">Raigad Fort Trek</a></li>
-                        <li><a href="./location/place.html?id=66fd5236b5a9cb92e7d4f26b">Dahanu Beach</a></li>
+                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a7433">Dahanu Beach</a></li>
+                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a7438">Kandhar Fort</a></li>
+                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a743a">Khandoba Temple</a></li>
+                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a743b">Koyna Wildlife Sanctuary</a></li>
+                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a7442">Shree Kshetra Bhandardara</a></li>
+                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a7434">Harishchandragad and Harishchandra Temple</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#">Categories <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Beaches</a></li>
-                        <li><a href="#">National Parks</a></li>
-                        <li><a href="#">Treks</a></li>
-                        <li><a href="#">Religious Places</a></li>
-                        <li><a href="#">Forts & Caves</a></li>
+                        <li><a href="./categories/category.html?category=beach">Beaches</a></li>
+                        <li><a href="./categories/category.html?category=nationalpark">National Parks</a></li>
+                        <li><a href="./categories/category.html?category=trek">Treks</a></li>
+                        <li><a href="./categories/category.html?category=religious">Religious Places</a></li>
+                        <li><a href="./categories/category.html?category=fortcave">Forts & Caves</a></li>
                     </ul>
                 </li>
                 <li><a href="./blogs.html">Blogs</a></li>
                 <li><a href="#">Suggestions</a></li>
                 <li><a href="#footer">About Us</a></li>
                 <li><a href="./Signup/index.html" class="sign-up" id="sign-up">Sign Up</a></li>
-                <li><img id="profileImage" src="./images/user.png" style="height: 50px; border-radius: 50px;" alt=""></li>
+                <li><img id="profileImage" src="./images/user.png" style="display: none;" alt=""></li>
             </ul>
         </nav>
     </header>
@@ -65,6 +66,140 @@
             <input type="text" placeholder="Explore Here...">
             <button><i class="ri-search-line"></i></button>
         </div>
+
+
+        <!-- Button to open the popup -->
+        <button id="openPopupBtn" class="btn">Plan Your Trip</button>
+
+        <!-- Popup modal -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close">&times;</span>
+                <h1>Plan Your Trip!!</h1>
+                <form>
+                    <div class="Category box-1">
+                        <label for="destination-category">Destination Category:</label>
+                        <select id="destination-category" name="destination-category">
+                            <option value="beaches">Beaches</option>
+                            <option value="waterfalls">Waterfalls</option>
+                            <option value="national-parks">National Parks</option>
+                            <option value="treks">Treks</option>
+                            <option value="religious-places">Religious Places</option>
+                            <option value="forts-caves">Forts/Caves</option>
+                        </select>
+                    </div>
+
+                    <div class="day box-1">
+                        <label for="no-of-days">No. of Days:</label>
+                        <select id="no-of-days" name="no-of-days">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                    </div>
+
+                    <div class="people box-1">
+                        <label for="no-of-travellers">No. of Travellers:</label>
+                        <select id="no-of-travellers" name="no-of-travellers">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                    </div>
+
+                    <div class="interest box-1">
+                        <label for="interests">Interests:</label>
+                        <div class="check-radio">
+                            <div>
+                                <input type="checkbox" id="interest-nature" name="interests[]" value="Nature">
+                                <label for="interest-nature">Nature</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="interest-food" name="interests[]" value="Food">
+                                <label for="interest-food">Food</label>   
+                            </div>
+                            <div>
+                                <input type="checkbox" id="interest-culture" name="interests[]" value="Culture">
+                                <label for="interest-culture">Culture</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="interest-hiking" name="interests[]" value="Hiking">
+                                <label for="interest-hiking">Hiking</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="interest-museums-history" name="interests[]"
+                                value="Museums/History">
+                                <label for="interest-museums-history">Museums/History</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="budget box-1">
+                        <label for="budget-range">Budget Range:</label>
+                        <input type="range" min="1000" max="10000" value="1000" step="500" id="priceRange"
+                            class="slider">
+                        <p>Selected Price: <span id="priceValue">1000</span></p>
+                    </div>
+
+                    <div class="transportation box-1">
+                        <label for="transportation">Transportation:</label>
+                        <div class="check-radio">
+                            <div>
+                                <input type="radio" id="transportation-rental-cars-bikes" name="transportation"
+                                value="Rental Cars/Bikes">
+                                <label for="transportation-rental-cars-bikes">Rental Cars/Bikes</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="transportation-flight" name="transportation" value="Flight">
+                                <label for="transportation-flight">Flight</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="transportation-train" name="transportation" value="Train">
+                                <label for="transportation-train">Train</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="transportation-bus" name="transportation" value="Bus">
+                                <label for="transportation-bus">Bus</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="transportation-cruise-ship" name="transportation"
+                                value="Cruise/Ship">
+                                <label for="transportation-cruise-ship">Cruise/Ship</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accommodation box-1">
+                        <label for="accommodation">Accommodation:</label>
+                        <div class="check-radio">
+                            <div>
+                                <input type="radio" id="accommodation-hotel" name="accommodation" value="Hotel">
+                                <label for="accommodation-hotel">Hotel</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="accommodation-hostel" name="accommodation" value="Hostel">
+                                <label for="accommodation-hostel">Hostel</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="accommodation-airbnb" name="accommodation" value="Airbnb">
+                                <label for="accommodation-airbnb">Airbnb</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="accommodation-camping" name="accommodation" value="Camping">
+                                <label for="accommodation-camping">Camping</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
     </section>
 
     <!----------------------- HIDDEN GEM  ----------------------->
@@ -172,69 +307,8 @@
             </div>
         </div>
     </section>
-    <script src="./script.js" type="module  "></script>
-    <script>
-        const menuToggle = document.querySelector(".menu-toggle");
-const navMenu = document.querySelector("nav ul");
-
-menuToggle.addEventListener("click", () => {
-  navMenu.classList.toggle("open");
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-  // Function to fetch user info
-  const fetchUserInfo = async () => {
-    try {
-      const response = await fetch('http://localhost:8000/api/users/user-info', {
-        credentials: 'include' // Use credentials to send cookies with the request
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        
-
-        // Display username and profile image
-        const button = document.getElementById("sign-up");
-        const profileImageElement = document.getElementById("profileImage");
-        button.innerHTML = "Log Out";
-        button.href = "/Login/index.html"
-        profileImageElement.src = `${data.data.avatar}`;
-
-
-        button.addEventListener('click', async (event) => {
-    event.preventDefault(); // Prevent the default action
-    try {
-        const response = await fetch('http://localhost:8000/api/users/logout', {
-            method: 'POST', 
-            credentials: 'include' // Include credentials (cookies) in the request
-        });
-
-        if (response.ok) {
-            alert("User Logged Out Successfully!");
-            // Optionally, redirect to the login page or update the UI
-            window.location.href = "/Login/index.html";
-        } else {
-            alert("Logout failed. Please try again.");
-        }
-    } catch (error) {
-        console.error("Error during logout:", error);
-    }
-});
-
-      } else {
-        //const usernameElement = document.getElementById("username");
-        //usernameElement.textContent = "Guest, Please, LogIn!";
-        document.getElementById("profileImage").src = "./images/user.png";
-      }
-    } catch (error) {
-      console.error("Error fetching user info:", error);
-    }
-  };
-
-  fetchUserInfo();
-});
-
-    </script>
+    <script src="./script.js" type="module"></script>
+    <script src="./from.js"></script>
 </body>
 
 </html>

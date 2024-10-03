@@ -54,6 +54,7 @@
                 <li><a href="#">Suggestions</a></li>
                 <li><a href="#footer">About Us</a></li>
                 <!-- <li><a href="./Signup/index.html" class="sign-up">Sign Up</a></li> -->
+                <li><a><img class="user-profile" src="../images/user.png" alt=""></a></li>
             </ul>
         </nav>
     </header>
@@ -70,7 +71,6 @@
                 <img id ="img1" src="./tarkarli1.jpg" alt="Image 1">   <!--PLACES-->
                 <img id ="img2" src="./tarkarli2.jpg" alt="Image 2">
                 <img id ="img3" src="./tarkarli3.jpg" alt="Image 3">
-                <img id ="img4" src="./tarkarli3.jpg" alt="Image 3">
                 <!-- <img src="https://via.placeholder.com/1000x500?text=Image+4" alt="Image 4"> -->
             </div>
 
@@ -78,7 +78,6 @@
             <button class="next">&#10095;</button>
 
             <div class="dots">
-                <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
@@ -166,61 +165,6 @@
     </section>
     <script src="script.js"></script>
     <script src="../script.js"></script>
-    <script>
-        const fillPlaceData = function (placeData) {
-            var name = document.getElementById('name')
-            var img1 = document.getElementById('img1')
-            var img2 = document.getElementById('img2')
-            var img3 = document.getElementById('img3')
-            var img4 = document.getElementById('img4')
-            var descriptionTitle = document.getElementById('descriptionTitle')
-            var description = document.getElementById('description')
-            var transport = document.getElementById('transport')
-            var budget = document.getElementById('budget')
-            var bestTime = document.getElementById('bestTime')
-            var map = document.getElementById('map')
-            var region = document.getElementById('region')
-            console.log(placeData)
-
-            name.innerText = placeData.data.name;
-            img1.src = placeData.data.images[0]
-            img2.src = placeData.data.images[1]
-            img3.src = placeData.data.images[2]
-            img4.src = placeData.data.images[3]
-            descriptionTitle.innerText = `About ${placeData.data.name} Beach`
-            description.innerText = placeData.data.description
-            transport.innerHTML = `<b>By Car : </b><span>${placeData.data.transportation_modes.car}</span><br><b>By Train : </b><span>${placeData.data.transportation_modes.train}</span><br><b>By Bus : </b><span>${placeData.data.transportation_modes.bus}</span>`
-            budget.innerText = placeData.data.minimum_budget
-            bestTime.innerText = placeData.data.best_time_to_visit
-            map.innerHTML = placeData.data.location
-            region.innerText = `${placeData.data.name},${placeData.data.region}`
-        }
-
-        async function fetchPlace(placeId) {
-            try {
-                const response = await fetch(`/api/places/${placeId}`, {
-                    credentials: 'include'
-                });
-
-                if (!response.ok) {
-                    throw new Error(`Error fetching place: ${response.status}`);
-                }
-
-                const placeData = await response.json();
-                fillPlaceData(placeData);
-            } catch (error) {
-                console.error('Failed to fetch place data:', error);
-            }
-        }
-
-        const urlParams = new URLSearchParams(window.location.search);
-        const placeId = urlParams.get('id');
-
-        if (placeId) {
-            fetchPlace(placeId);
-        }
-    </script>
-
 </body>
 
 </html>

@@ -1,4 +1,6 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose from "mongoose";
+import {ApiResponse} from '../utils/ApiResponse.js'
+import {ApiError} from '../utils/ApiError.js'
 
 const placeSchema = new mongoose.Schema(
   {
@@ -19,7 +21,7 @@ const placeSchema = new mongoose.Schema(
       required: true,
     },
     place_type: {
-      type: String,
+      type: String, //the value must be comma seperated so that the place can be searched by category wised using regexof mongodb
       required: true,
     },
     location: {
@@ -42,13 +44,13 @@ const placeSchema = new mongoose.Schema(
     },
     is_hidden: {
       type: Boolean,
-      default: true,
+      default: false,
     },
     images: [
-        {
-            type: String,
-            required:true
-        }
+      {
+        type: String,
+        required: true,
+      }
     ],
     transportation_modes: {
       train: {
@@ -70,4 +72,15 @@ const placeSchema = new mongoose.Schema(
   }
 );
 
+//Feteches complete collection.
+placeSchema.statics.fetchPlaces = async function () {
+  try {
+    const places = await this.find({});
+    return places; // Return the array of places
+  } catch (err) {
+    throw new ApiError(404, "Resource not Found!");
+  }
+}
+
+// Create and export the model
 export const Place = mongoose.model("Place", placeSchema);

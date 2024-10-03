@@ -1,0 +1,393 @@
+/************* create trip btn **************/
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.btn:hover {
+  background-color: #005f6b;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Popup modal styling */
+.popup {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);/* Dark background */
+  justify-content: center;
+  align-items: flex-start;/* Popup starts near the top */
+  overflow-y: auto; /* Allow scrolling for the popup */
+  padding-top: 50px; /* Padding from the top */
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animation for smooth appearance */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Starting at invisible */
+    }
+    to {
+        opacity: 1; /* Ending at fully visible */
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px); /* Starting from above */
+        opacity: 0; /* Invisible at start */
+    }
+    to {
+        transform: translateY(0); /* Ending in normal position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+
+.popup-content {
+  color: black;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-height: 90vh; /* Ensure the content doesn't overflow beyond the screen */
+  overflow-y: auto; /* Scroll if the content exceeds available height */
+  text-align: justify;
+}
+
+.popup-content::-webkit-scrollbar {
+  display: none;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
+
+/************* Popup Form Trigger Animation **************/
+
+/* Show popup when the button is clicked */
+.popup.active {
+    display: flex; /* Display flex when active */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Smooth fade-in */
+}
+
+/* Ensure the popup-content shows up smoothly */
+.popup-content.active {
+    animation: slideIn 0.5s ease-in-out forwards; /* Slide-in animation */
+}
+
+form {
+  margin-top: 20px;
+}
+
+/* Styling for form elements */
+.box-1 {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+.button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+/* Ensure popup content is centered properly when scroll is present */
+@media (max-height: 700px) {
+  .popup {
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+}
+
+/*************** Form Styling ***************/
+
+form {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+select {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.check-radio {
+  display: flex;
+}
+
+.button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0069d9;
+}
+
+.box {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+}
+
+/* Media Query for max-width: 1200px */
+
+@media (min-width: 1200px){
+    .popup-content{
+        opacity: 0; /* Hidden initially */
+        transform: translateY(-50px); /* Positioned above the screen initially */
+        animation: slideIn 0.5s ease-in-out forwards; /* Slide down and fade in */
+    }
+}
+
+@media (max-width: 1200px) {
+  .popup-content {
+    width: 85%;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  .box-1 {
+    padding: 15px 10px;
+  }
+}
+
+/* Media Query for max-width: 768px */
+@media (max-width: 768px) {
+  .popup-content {
+    width: 85%;
+  }
+
+  form {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .box-1 {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    margin: 25px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  select,
+  input[type="range"] {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .check-radio {
+    display: block;
+  }
+}
+
+/* Media Query for max-width: 480px */
+@media (max-width: 480px) {
+  .popup-content {
+    width: 85%;
+    padding: 10px;
+  }
+
+  form {
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .box-1 {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  label,
+  select,
+  input[type="range"] {
+    font-size: 12px;
+  }
+
+  .budget p {
+    font-size: 12px;
+  }
+
+  .btn {
+    margin: 25px;
+  }
+
+  .button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .check-radio {
+    display: block;
+  }
+}
+
+.overlay:target .popup {
+  animation: popup 0.7s;
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

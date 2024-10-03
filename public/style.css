@@ -2,6 +2,7 @@
 
 * {
   user-select: none;
+  
 }
 
 body {
@@ -83,6 +84,10 @@ nav .sign-up:hover {
 nav .arrow {
   margin-left: 5px;
   font-size: 12px;
+}
+
+.user-profile{
+  cursor: pointer;
 }
 
 /************** DROPDOWN ****************/
@@ -195,6 +200,8 @@ nav .dropdown:hover .dropdown-menu {
   transform: scale(1.03);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
+
+/**************** Hidden Gems ****************/
 
 .hidden-gems {
   font-family: "Montserrat", sans-serif;
@@ -628,11 +635,64 @@ nav .dropdown:hover .dropdown-menu {
   border-radius: 2px;
 }
 
-/************** Media Queries for responsiveness ****************/
+/********************** Media Query ***********************/
+
+/* Default styles are for desktop */
+
+@media screen and (max-width: 1200px) {
+  nav ul {
+    margin-left: 20px;
+  }
+
+  nav ul li {
+    margin-left: 40px;
+  }
+
+  .sign-up {
+    padding: 8px 15px;
+  }
+
+  /****** hotspots *******/
+  .hotspots {
+    padding: 40px 30px;
+  }
+
+  .hotspots h2 {
+    font-size: 40px;
+  }
+
+  .hotspot-item {
+    padding: 15px;
+    max-width: 800px;
+  }
+
+  .hotspot-info h3 {
+    font-size: 22px;
+  }
+
+  .hotspot-info p {
+    font-size: 14px;
+  }
+
+  .stay-tuned {
+    padding: 40px;
+  }
+
+  .stay-tuned-info h2 {
+    font-size: 36px;
+  }
+
+  .stay-tuned-info p {
+    font-size: 18px;
+  }
+
+  .stay-tuned img {
+    width: 350px;
+  }
+}
 
 @media (min-width: 992px) {
   /* Styles for large screens */
-
   .hero {
     padding: 200px 0px;
   }
@@ -691,139 +751,6 @@ nav .dropdown:hover .dropdown-menu {
     width: auto;
   }
 
-}
-
-@media (max-width: 767px) {
-  /* Styles for small screens */
-
-  header {
-    padding: 10px 20px;
-  }
-
-  .logo img {
-    height: 40px;
-    margin-right: 10px;
-  }
-
-  .logo h1 {
-    font-size: 20px;
-  }
-
-  /* nav ul li {
-    margin-left: 50px;
-  }
-
-  nav ul li a {
-    font-size: 14px;
-  } */
-
-  .hero {
-    padding: 150px 20px;
-  }
-
-  .hero h2 {
-    font-size: 40px;
-  }
-
-  .search-bar {
-    width: 100%;
-  }
-
-  .hidden-gems,
-  .blogs {
-    padding: 40px 20px;
-  }
-
-  .gem-grid,
-  .blog-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-
-  .view-more,
-  .view-more2 {
-    padding: 15px 30px;
-    font-size: 14px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .about-us,
-  .query-form {
-    flex: 100%;
-  }
-
-  .social-icons {
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .footer{
-    padding: 50px 20px;
-  }
-
-  .container{
-    width: auto;
-  }
-
-}
-
-/********************** Media Query ***********************/
-
-/* Default styles are for desktop */
-
-@media screen and (max-width: 1200px) {
-  nav ul {
-    margin-left: 20px;
-  }
-
-  nav ul li {
-    margin-left: 40px;
-  }
-
-  .sign-up {
-    padding: 8px 15px;
-  }
-
-  /****** hotspots *******/
-  .hotspots {
-    padding: 40px 30px;
-  }
-
-  .hotspots h2 {
-    font-size: 40px;
-  }
-
-  .hotspot-item {
-    padding: 15px;
-    max-width: 800px;
-  }
-
-  .hotspot-info h3 {
-    font-size: 22px;
-  }
-
-  .hotspot-info p {
-    font-size: 14px;
-  }
-
-  .stay-tuned {
-    padding: 40px;
-  }
-
-  .stay-tuned-info h2 {
-    font-size: 36px;
-  }
-
-  .stay-tuned-info p {
-    font-size: 18px;
-  }
-
-  .stay-tuned img {
-    width: 350px;
-  }
 }
 
 /* For tablets (landscape and portrait) */
@@ -930,6 +857,79 @@ nav .dropdown:hover .dropdown-menu {
 
 /* For mobile devices */
 @media screen and (max-width: 768px) {
+
+  header {
+    padding: 10px 20px;
+  }
+
+  .logo img {
+    height: 60px;
+    margin-right: 10px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  /* nav ul li {
+    margin-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  } */
+
+  .hero {
+    padding: 150px 20px;
+  }
+
+  .hero h2 {
+    font-size: 40px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .hidden-gems,
+  .blogs {
+    padding: 40px 20px;
+  }
+
+  .gem-grid,
+  .blog-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .view-more,
+  .view-more2 {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-us,
+  .query-form {
+    flex: 100%;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer{
+    padding: 50px 20px;
+  }
+
+  .container{
+    width: auto;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -937,11 +937,7 @@ nav .dropdown:hover .dropdown-menu {
     flex-direction: row;
     padding: 10px 15px;
   }
-
-  .logo {
-    margin-bottom: 15px;
-  }
-
+  
   nav {
     /* width: 100%; */
     display: contents;
@@ -962,8 +958,10 @@ nav .dropdown:hover .dropdown-menu {
   }
 
   .menu-toggle {
-    display: block;
+    display: flex;
     cursor: pointer;
+    z-index: 0;
+    height: 25px;
   }
 
   nav ul.open {
@@ -974,10 +972,6 @@ nav .dropdown:hover .dropdown-menu {
     margin-top: 20px;
     width: 100%;
     text-align: center;
-  }
-
-  .menu-toggle {
-    display: flex;
   }
 
   /* Make sure nav is hidden by default and fully opens on toggle */
