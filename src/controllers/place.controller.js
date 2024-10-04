@@ -44,6 +44,7 @@ const getPlacesByCategory = async (req,res)=>{
 const fetchPlaces = async (req, res) => {
   try {
     const places = await Place.fetchPlaces(); // Call static method
+    // console.log(places);
     return res.status(200).json(places); // Send the places in the response
   } catch (error) {
     console.log("Error fetching places:", error);

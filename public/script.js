@@ -113,10 +113,29 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //Hidden Gems
-
+  const fillGemInfo = (data) =>{
+    const fourGems = data.slice(0,4)
+    console.log(fourGems)
+    var gemGrid = document.getElementById('gemGrid')
+    gemGrid.innerHTML =''
+    for(var gem of fourGems){
+      gemGrid.innerHTML +=`
+      <div class="gem-card">
+        <img src="${gem.images[0]}" alt="Hidden Gem 1">
+        <p class="title">${gem.name}</p>
+        <p>${gem.description.substr(0,150)}...</p>
+        <a href="./location/place.html?id=${gem._id}" class="read-more-link">Read More</a>
+      </div>
+      `
+    }
+  }
 
   const response = await fetch('http://localhost:8000/api/places/collection', { 
       credentials: 'include' // Include credentials (cookies) in the request
   });
-  console.log(response);
-  
+
+  const data = await response.json()
+
+  if(data){
+    fillGemInfo(data)
+  }

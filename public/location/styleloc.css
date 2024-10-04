@@ -84,6 +84,10 @@ nav .arrow {
   font-size: 12px;
 }
 
+.user-profile{
+  cursor: pointer;
+}
+
 /************** DROPDOWN ****************/
 
 nav .dropdown:hover .dropdown-menu {
@@ -202,18 +206,47 @@ nav .dropdown:hover .dropdown-menu {
   background-color: #717171;
 }
 
+/****************** Information ****************/
 
 /* Paragraph Styles */
-.content p {
+
+.about-content{
+  margin: 0 50px;
+  margin-bottom: 2rem; 
+}
+
+.information{
+  padding: 0px 50px;
+}
+
+.information h2{
+  margin-bottom: 1rem;
+}
+
+.container-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.container-info:nth-child(odd){
+  background-color: #aaa6a6;
+}
+
+.container-info p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #333;
   line-height: 1.6;
-  margin: 20px 0;
   text-align: left; /* Aligns text to the left for better readability */
+  text-align: justify;
   max-width: 800px;
   margin-left: auto;
-  margin-right: auto; /* Centers the paragraphs */
+  /* margin-bottom: 2rem; */
+  /* margin-right: auto; */
+  margin: 10px 10px 0px 0px;
 }
 
 .content h2{
@@ -226,9 +259,10 @@ nav .dropdown:hover .dropdown-menu {
   font-family: "The Seasons", serif;
   font-style: bold;
   font-size: 28px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   color: #333;
   text-align: left;
+  margin-left: 10px;
 }
 
 .content ul {
@@ -237,7 +271,7 @@ nav .dropdown:hover .dropdown-menu {
   text-align: left;
   max-width: 800px;
   margin-left: auto;
-  margin-right: auto; /* Centers the list */
+  /* margin-right: auto; */
 }
 
 .content ul li {
@@ -379,6 +413,36 @@ nav .dropdown:hover .dropdown-menu {
   .sign-up {
     padding: 8px 15px;
   }
+
+  /* content */
+
+  .about-content {
+    margin: 0 30px;
+    font-size: 18px;
+    margin: 0px 10px 20px;
+    text-align: justify;
+  }
+
+  .information {
+    padding: 0px 30px;
+  }
+
+  .container-info{
+    padding: 10px;
+  }
+
+  .container-info p {
+    font-size: 16px;
+  }
+
+  .content h3 {
+    font-size: 26px;
+    margin-left: 0px;
+  }
+
+  .content ul li {
+    font-size: 15px;
+  }
 }
 
 /* For tablets (landscape and portrait) */
@@ -434,10 +498,6 @@ nav .dropdown:hover .dropdown-menu {
     padding: 10px 15px;
   }
 
-  .logo {
-    margin-bottom: 15px;
-  }
-
   nav {
     /* width: 100%; */
     display: contents;
@@ -457,7 +517,8 @@ nav .dropdown:hover .dropdown-menu {
   }
 
   .menu-toggle {
-    display: block;
+    display: flex;
+    height: 25px;
     cursor: pointer;
   }
 
@@ -469,10 +530,6 @@ nav .dropdown:hover .dropdown-menu {
     margin-top: 20px;
     width: 100%;
     text-align: center;
-  }
-
-  .menu-toggle {
-    display: flex;
   }
 
   /* Make sure nav is hidden by default and fully opens on toggle */
@@ -534,6 +591,45 @@ nav .dropdown:hover .dropdown-menu {
   nav .sign-up:hover {
     background-color: #0033a0;
   }
+
+  /* Content */
+
+  .about-content {
+    margin: 0 20px;
+    font-size: 16px;
+    margin: 0px 10px 20px;
+    text-align: justify;
+  }
+
+  .information {
+    padding: 0px 20px;
+  }
+
+  .container-info {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .container-info p {
+    font-size: 15px;
+    max-width: 100%;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .content h2 {
+    font-size: 1.8rem;
+  }
+
+  .content h3 {
+    font-size: 24px;
+    margin-left: 0px;
+  }
+
+  .content ul li {
+    font-size: 14px;
+  }
+
 }
 
 /*For very small mobile devices */
@@ -552,4 +648,42 @@ nav .dropdown:hover .dropdown-menu {
   .sign-up {
     padding: 10px;
   }
+
+  /* Content */
+
+  .about-content {
+    margin: 0 10px;
+    font-size: 14px;
+    margin: 0px 10px 20px;
+    text-align: justify;
+  }
+
+  .information {
+    padding: 0px 10px;
+  }
+
+  .container-info {
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .container-info p {
+    font-size: 14px;
+    max-width: 100%;
+    margin: 5px 0px 0px 0px;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  .content h3 {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  .content ul li {
+    font-size: 12px;
+  }
+
 }
