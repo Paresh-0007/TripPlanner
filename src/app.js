@@ -2,7 +2,9 @@ import express from 'express';
 import cookieParser from "cookie-parser";
 import path from 'path'; // Import path module
 import userRouter from './routes/user.routes.js';
-import placeRouter from './routes/place.routes.js'
+import placeRouter from './routes/place.routes.js';
+import itineraryRouter from './routes/itinerary.routes.js'
+
 const app = express();
 
 // Middleware for parsing JSON and URL-encoded data
@@ -27,4 +29,5 @@ app.get('/', (req, res) => {
 
 app.use('/api/users', userRouter);
 app.use('/api/places',placeRouter);
+app.use('/api/generateItinerary',itineraryRouter)
 export { app };

@@ -183,7 +183,13 @@ input[type="checkbox"] {
   margin-left: 15px;
   cursor: pointer;
 }
-
+#city{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+}
 input[type="radio"] {
   padding: 10px;
   border: 1px solid #ccc;

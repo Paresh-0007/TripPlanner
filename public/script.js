@@ -139,3 +139,78 @@ document.addEventListener("DOMContentLoaded", () => {
   if(data){
     fillGemInfo(data)
   }
+
+
+//FORM
+// document.getElementById('itinerary').addEventListener('submit', async function(event) {
+//           event.preventDefault(); // Prevent the default form submission
+
+//           const city = document.getElementById('city').value;
+//           const days = document.getElementById('no-of-days').value;
+
+//           try {
+//             const response = await fetch("/api/generateItinerary/itinerary", {
+//               method: "POST",
+//               headers: {
+//                 "Content-Type": "application/json",
+//               },
+//               body: JSON.stringify({ city, days}),
+//             });
+//             console.log(await response.json());
+
+//           } catch (error) {
+//             console.error("Error logging in:", error);
+//           }
+//         });
+
+
+document.getElementById('itinerary').addEventListener('submit', async function(event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  const city = document.getElementById('city').value;
+  const days = document.getElementById('no-of-days').value;
+
+  try {
+    const response = await fetch("/api/generateItinerary/itinerary", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ city, days }),
+    });
+
+    // Check if the response is valid
+    if (!response.ok) {
+      throw new Error("Failed to fetch itinerary.");
+    }
+
+    // Parse the JSON data
+    const data = await response.json();
+    console.log(data); // Log the response for debugging
+
+    // Get the container to display the itinerary
+    const itineraryContainer = document.getElementById('itinerary-results');
+    itineraryContainer.innerHTML = ''; // Clear any previous results
+
+    // Loop through the itinerary array and display each day's plan
+    data.itinerary.forEach((dayPlan, index) => {
+      const dayDiv = document.createElement('div');
+      dayDiv.classList.add('day-plan');
+      
+      dayDiv.innerHTML = `
+        <h3>Day ${index + 1}: ${dayPlan.place}</h3>
+        <p><strong>Accommodation:</strong> ${dayPlan.accomodation.address_line1}, ${dayPlan.accomodation.address_line2}</p>
+        <p><strong>Airport:</strong>  ${dayPlan.airport.name || 'N/A'}, ${dayPlan.airport.address_line1 || ''}, ${dayPlan.airport.address_line2 || ''}</p>
+        <p><strong>Bus Stop:</strong> ${dayPlan.bus.name || 'N/A'}, ${dayPlan.bus.address_line1 || ''}, ${dayPlan.bus.address_line2 || ''}</p>
+        <p><strong>Police Station:</strong> ${dayPlan.police.name || 'N/A'}, ${dayPlan.police.address_line1 || ''}, ${dayPlan.police.address_line2 || ''}, ${dayPlan.police.contact || ''}</p>
+        <p><strong>Parking:</strong> ${dayPlan.parking.address_line1 || 'N/A'}, ${dayPlan.parking.address_line2 || ''}</p>
+        <p><strong>Nearby Cafe/Restaurant:</strong> ${dayPlan.nearbyCafeResto.name || 'N/A'}, ${dayPlan.nearbyCafeResto.address_line1 || ''}, ${dayPlan.nearbyCafeResto.address_line2 || ''}</p>
+      `;
+      
+      itineraryContainer.appendChild(dayDiv);
+    });
+
+  } catch (error) {
+    console.error("Error fetching itinerary:", error);
+  }
+});

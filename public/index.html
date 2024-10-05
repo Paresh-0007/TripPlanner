@@ -31,12 +31,12 @@
                 <li class="dropdown">
                     <a href="#">Hotspots <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a7433">Dahanu Beach</a></li>
-                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a7438">Kandhar Fort</a></li>
-                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a743a">Khandoba Temple</a></li>
-                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a743b">Koyna Wildlife Sanctuary</a></li>
-                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a7442">Shree Kshetra Bhandardara</a></li>
-                        <li><a href="./location/place.html?id=66fec649f65fc30b0a0a7434">Harishchandragad and Harishchandra Temple</a></li>
+                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92c">Bhogwe Beach</a></li>
+                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b932">Kalavantin Durg trek</a></li>
+                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92a">Ambabai Temple</a></li>
+                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92b">Bhagwan Mahavir Wildlife Sanctuary</a></li>
+                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b935">Karla Caves</a></li>
+                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b934">Kandhar Fort</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -76,17 +76,10 @@
             <div class="popup-content">
                 <span class="close">&times;</span>
                 <h1>Plan Your Trip!!</h1>
-                <form>
+                <form id="itinerary">
                     <div class="Category box-1">
-                        <label for="destination-category">Destination Category:</label>
-                        <select id="destination-category" name="destination-category">
-                            <option value="beaches">Beaches</option>
-                            <option value="waterfalls">Waterfalls</option>
-                            <option value="national-parks">National Parks</option>
-                            <option value="treks">Treks</option>
-                            <option value="religious-places">Religious Places</option>
-                            <option value="forts-caves">Forts/Caves</option>
-                        </select>
+                        <label for="destination-category">Enter City:</label><br>
+                        <input type="text" id="city" name="city">
                     </div>
 
                     <div class="day box-1">
@@ -197,6 +190,7 @@
                     </div>
                     <button class="button" type="submit">Submit</button>
                 </form>
+                <div id="itinerary-results"></div>
             </div>
         </div>
 
