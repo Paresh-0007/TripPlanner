@@ -152,6 +152,7 @@ const fetchDataItinerary = async function (req, res) {
       airport: "We're sorry, no nearby airports were found.",
       railway: "We're sorry, no nearby railway stations were found.",
       bus: "We're sorry, no nearby bus stations were found.",
+      hospital: "We're sorry, no nearby hospitals were listed.",
       police: "We're sorry, no nearby police stations were listed.",
       parking: "We're sorry, no nearby parking areas were found.",
       nearbyCafeResto: "We're sorry, no nearby cafes or restaurants were found."
@@ -229,7 +230,7 @@ const fetchDataItinerary = async function (req, res) {
     
     //Hospital
     if (hospitalData.features && hospitalData.features.length > 0) {
-      dayplan.police = {
+      dayplan.hospital = {
         name: hospitalData.features[0].properties.name,
         address_line1: hospitalData.features[0].properties.address_line1,
         address_line2: hospitalData.features[0].properties.address_line2,

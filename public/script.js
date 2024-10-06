@@ -196,12 +196,13 @@ document.getElementById('itinerary').addEventListener('submit', async function(e
     data.itinerary.forEach((dayPlan, index) => {
       const dayDiv = document.createElement('div');
       dayDiv.classList.add('day-plan');
-      
+      console.log(dayPlan)
       dayDiv.innerHTML = `
         <h3>Day ${index + 1}: ${dayPlan.place}</h3>
         <p><strong>Accommodation:</strong> ${dayPlan.accomodation.address_line1}, ${dayPlan.accomodation.address_line2}</p>
         <p><strong>Airport:</strong>  ${dayPlan.airport.name || 'N/A'}, ${dayPlan.airport.address_line1 || ''}, ${dayPlan.airport.address_line2 || ''}</p>
         <p><strong>Bus Stop:</strong> ${dayPlan.bus.name || 'N/A'}, ${dayPlan.bus.address_line1 || ''}, ${dayPlan.bus.address_line2 || ''}</p>
+        <p><strong>Hospital:</strong> ${dayPlan.hospital.name || 'N/A'}, ${dayPlan.hospital.address_line1 || ''}, ${dayPlan.hospital.address_line2 || ''}, ${dayPlan.hospital.contact || ''}</p>
         <p><strong>Police Station:</strong> ${dayPlan.police.name || 'N/A'}, ${dayPlan.police.address_line1 || ''}, ${dayPlan.police.address_line2 || ''}, ${dayPlan.police.contact || ''}</p>
         <p><strong>Parking:</strong> ${dayPlan.parking.address_line1 || 'N/A'}, ${dayPlan.parking.address_line2 || ''}</p>
         <p><strong>Nearby Cafe/Restaurant:</strong> ${dayPlan.nearbyCafeResto.name || 'N/A'}, ${dayPlan.nearbyCafeResto.address_line1 || ''}, ${dayPlan.nearbyCafeResto.address_line2 || ''}</p>
