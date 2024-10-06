@@ -136,7 +136,7 @@
         };
 
         const fetchBlogData = async () => {
-            const response = await fetch("http://localhost:8000/api/blogs/collection", {
+            const response = await fetch("/api/blogs/collection", {
                 credentials: "include",
             });
 

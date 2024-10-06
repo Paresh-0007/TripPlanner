@@ -142,7 +142,7 @@
 
 const fetchHiddenGem = async () => {
     try {
-        const response = await fetch("http://localhost:8000/api/places/collection", {
+        const response = await fetch("/api/places/collection", {
             credentials: "include",
         });
 
