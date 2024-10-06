@@ -25,7 +25,7 @@
 
     async function fetchBlog(blogId) {
       try {
-        const response = await fetch(`http://localhost:8000/api/blogs/blog/${blogId}`, {
+        const response = await fetch(`/api/blogs/blog/${blogId}`, {
           credentials: 'include'
         });
 

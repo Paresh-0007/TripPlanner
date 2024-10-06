@@ -95,7 +95,7 @@
             if (valid) {
                 const formData = new FormData(form);
                 try {
-                    const response = await fetch('http://localhost:8000/api/users/register', {
+                    const response = await fetch('/api/users/register', {
                         method: 'POST',
                         body: formData
                     });

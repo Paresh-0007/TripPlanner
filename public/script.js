@@ -33,7 +33,7 @@ document.querySelector(".close").addEventListener("click", function () {
 //     const profileImageElement = document.getElementById("profileImage");
 
 //     try {
-//       const response = await fetch('http://localhost:8000/api/users/user-info', {
+//       const response = await fetch('/api/users/user-info', {
 //         method: 'GET',
 //         credentials: 'include',
 //       });
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const fetchUserInfo = async () => {
     try {
       const response = await fetch(
-        "http://localhost:8000/api/users/user-info",
+        "/api/users/user-info",
         {
           credentials: "include", // Use credentials to send cookies with the request
         }
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
           event.preventDefault(); // Prevent the default action
           try {
             const response = await fetch(
-              "http://localhost:8000/api/users/logout",
+              "/api/users/logout",
               {
                 method: "POST",
                 credentials: "include", // Include credentials (cookies) in the request
@@ -135,7 +135,7 @@ const fillGemInfo = (data) => {
 };
 
 const fetchPlaceCollection = async ()=>{
-  const response = await fetch("http://localhost:8000/api/places/collection", {
+  const response = await fetch("/api/places/collection", {
     credentials: "include",
   });
   
@@ -168,7 +168,7 @@ const fillBlogsInfo = (data) => {
 };
 
 const fetchBlogData = async () => {
-  const response = await fetch("http://localhost:8000/api/blogs/collection", {
+  const response = await fetch("/api/blogs/collection", {
     credentials: "include",
   });
 
