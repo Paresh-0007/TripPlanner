@@ -201,6 +201,42 @@ nav .dropdown:hover .dropdown-menu {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+.results-container {
+  margin: 20px auto;
+  max-width: 550px; /* Keep it consistent with input width */
+  border-radius: 15px; /* Match the search bar's border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* White background */
+  overflow: hidden; /* Round the corners */
+  color: #000;
+}
+
+/* Individual result items */
+.results-container div {
+  padding: 15px; /* Increased padding for comfort */
+  border-bottom: 1px solid #eee; /* Light separator */
+  transition: background-color 0.3s; /* Smooth background change */
+  text-align: left;
+}
+
+/* Last item without border */
+.results-container div:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect for results */
+.results-container div:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+/* No results message */
+.results-container p {
+  text-align: center;
+  padding: 10px;
+  color: #666; /* Soft gray for no results text */
+  margin: 0; /* Remove default margin */
+}
+
 /**************** Hidden Gems ****************/
 
 .hidden-gems {

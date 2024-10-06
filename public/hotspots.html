@@ -39,7 +39,8 @@
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92c">Bhogwe Beach</a></li>
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b932">Kalavantin Durg trek</a></li>
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92a">Ambabai Temple</a></li>
-                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92b">Bhagwan Mahavir Wildlife Sanctuary</a></li>
+                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92b">Bhagwan Mahavir Wildlife
+                                Sanctuary</a></li>
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b935">Karla Caves</a></li>
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b934">Kandhar Fort</a></li>
                     </ul>
@@ -65,9 +66,9 @@
 
     <section class="hotspots">
         <h2>Hidden Gems of Maharashtra</h2>
-        <div class="hotspot-list">
-            <a href="./Loction/tarkarli.html">
-                <div class="hotspot-item">
+        <div class="hotspot-list" id="hotspot-list">
+            <!-- <a href="./Loction/tarkarli.html">
+                <div class="hotspot-item"> 
                     <img src="./images/gem1.jpg" alt="Tarkarli Beach">
                     <div class="hotspot-info">
                         <h3>Tarkarli Beach</h3>
@@ -76,34 +77,7 @@
                             getaway for nature lovers and adventure seekers alike.</p>
                     </div>
                 </div>
-            </a>
-            <div class="hotspot-item">
-                <img src="./images/gem2.jpg" alt="Karnala Bird Sanctuary">
-                <div class="hotspot-info">
-                    <h3>Karnala Bird Sanctuary</h3>
-                    <p><strong>Location: Karnala, Raigad District</strong></p>
-                    <p>Home to a wide variety of bird species, Karnala Bird Sanctuary is a haven for birdwatchers and
-                        those seeking tranquility in nature.</p>
-                </div>
-            </div>
-            <div class="hotspot-item">
-                <img src="./images/gem3.jpeg" alt="Naneghat">
-                <div class="hotspot-info">
-                    <h3>Naneghat</h3>
-                    <p><strong>Location: Naneghat, Thane District</strong></p>
-                    <p>An ancient mountain pass with historical significance, Naneghat offers breathtaking views and a
-                        peek into Maharashtra's rich history.</p>
-                </div>
-            </div>
-            <div class="hotspot-item">
-                <img src="./images/gem4.jpg" alt="Kondeshwar Temple">
-                <div class="hotspot-info">
-                    <h3>Kondeshwar Temple</h3>
-                    <p><strong>Location: Kondeshwar, Thane District</strong></p>
-                    <p>A hidden gem amidst lush greenery, Kondeshwar Temple is a tranquil spot ideal for a spiritual
-                        retreat or a peaceful day out.</p>
-                </div>
-            </div>
+            </a> -->
         </div>
     </section>
 
@@ -146,6 +120,57 @@
         </div>
     </section>
     <script src="./script.js"></script>
+    <script>
+        //Hidden Gems
+        const fillGemInfo = (data) => {
+    var hotspotList = document.getElementById("hotspot-list");
+    hotspotList.innerHTML = "";
+    for (var i of data) {
+        hotspotList.innerHTML += `
+        <a href="../location/place.html?id=${i._id}">
+            <div class="hotspot-item">
+                <img src="${i.images[0]}" alt="image">
+                <div class="hotspot-info">
+                    <h3>${i.name}</h3>
+                    <p><strong>Location: ${i.name}, ${i.region}</strong></p>
+                    <p>${i.description.substr(0, 150)}...<a href="../location/place.html?id=${i._id}">View More</a></p>
+                </div>
+            </div>
+        </a>
+        `;
+    }
+};
+
+const fetchHiddenGem = async () => {
+    try {
+        const response = await fetch("http://localhost:8000/api/places/collection", {
+            credentials: "include",
+        });
+
+        // Check if the request was successful
+        if (!response.ok) {
+            throw new Error(`Error: ${response.status} - ${response.statusText}`);
+        }
+
+        const data = await response.json();
+
+        // Check if data is an array
+        if (Array.isArray(data)) {
+            console.log(data); // Log the data for debugging
+            fillGemInfo(data); // Call function to fill the UI
+        } else {
+            console.error("Received data is not an array:", data);
+        }
+
+    } catch (error) {
+        console.error("Error fetching data:", error); // Log the error for debugging
+    }
+};
+
+// Call the function when the window loads
+window.onload = fetchHiddenGem;
+
+    </script>
 </body>
 
 </html>

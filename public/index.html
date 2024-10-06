@@ -63,9 +63,10 @@
         <h2>DISCOVER HIDDEN GEMS AND LOCAL SECRETS</h2>
         <p class="tagline">Your Ultimate Guide to Unforgettable Journeys!</p>
         <div class="search-bar">
-            <input type="text" placeholder="Explore Here...">
-            <button><i class="ri-search-line"></i></button>
+            <input type="text" id="search-input" placeholder="Explore Here...">
+            <button id="search-button"><i class="ri-search-line"></i></button>
         </div>
+        <div id="results" class="results-container"></div>        
 
 
         <!-- Button to open the popup -->
@@ -190,7 +191,7 @@
                     </div>
                     <button class="button" type="submit">Submit</button>
                 </form>
-                <div id="itinerary-results"></div>
+                <button class="button" style="display: none;">View Result</button>
             </div>
         </div>
 
@@ -218,35 +219,14 @@
 
     <section class="blogs">
         <h2>Latest Blogs</h2>
-        <div class="blog-grid">
-            <div class="blog-card">
+        <div class="blog-grid" id="blog-grid">
+            <!-- <div class="blog-card">
                 <img src="./images/blog1.jpg" alt="Top 10 Waterfalls in Maharashtra">
                 <p class="title">Top 10 Waterfalls in Maharashtra</p>
                 <p>Discover the most stunning waterfalls in Maharashtra, perfect for a refreshing getaway and adventure.
                 </p>
                 <a href="./blog-page/blog.html" class="read-more-link">Read More</a>
-            </div>
-            <div class="blog-card">
-                <img src="./images/blog2.jpg" alt="Best Places for Trekking in Maharashtra">
-                <p class="title">Best Places for Trekking in Maharashtra</p>
-                <p>Explore the best trekking destinations in Maharashtra, offering breathtaking views and thrilling
-                    experiences.</p>
-                <a href="#" class="read-more-link">Read More</a>
-            </div>
-            <div class="blog-card">
-                <img src="./images/blog3.png" alt="Historical Sites to Visit in Maharashtra">
-                <p class="title">Historical Sites to Visit in Maharashtra</p>
-                <p>Uncover the rich history of Maharashtra through its most important historical sites and landmarks.
-                </p>
-                <a href="#" class="read-more-link">Read More</a>
-            </div>
-            <div class="blog-card">
-                <img src="./images/blog4.jpg" alt="Caves in Maharashtra">
-                <p class="title">Exploring the Caves of Maharashtra</p>
-                <p>Embark on a journey to explore ancient and mystical caves of Maharashtra, rich with history and
-                    natural beauty.</p>
-                <a href="#" class="read-more-link">Read More</a>
-            </div>
+            </div> -->
         </div>
         <a href="blogs.html" class="view-more2">View More <span><i class="ri-arrow-right-s-line"></i></span></a>
     </section>

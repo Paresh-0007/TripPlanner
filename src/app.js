@@ -4,6 +4,8 @@ import path from 'path'; // Import path module
 import userRouter from './routes/user.routes.js';
 import placeRouter from './routes/place.routes.js';
 import itineraryRouter from './routes/itinerary.routes.js'
+import blogRouter from './routes/blog.routes.js';
+
 
 const app = express();
 
@@ -30,4 +32,5 @@ app.get('/', (req, res) => {
 app.use('/api/users', userRouter);
 app.use('/api/places',placeRouter);
 app.use('/api/generateItinerary',itineraryRouter)
+app.use('/api/blogs',blogRouter)
 export { app };

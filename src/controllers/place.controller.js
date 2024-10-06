@@ -52,4 +52,23 @@ const fetchPlaces = async (req, res) => {
   }
 }
 
-export { getPlaceById, getPlacesByCategory,fetchPlaces }
+const getPlaceBySearch = async (req, res) => {
+  try {
+      const { query } = req.query;  // Search query from the user
+
+      // MongoDB search using regex and $or for searching across fields
+      const places = await Place.find({
+          $or: [
+              { name: { $regex: query, $options: 'i' } },           // case-insensitive match on name
+              { place_type: { $regex: query, $options: 'i' } },     // match on place_type
+              { region: { $regex: query, $options: 'i' } }          // match on region
+          ]
+      });
+      // console.log('Found Places:', places);
+      res.json(places);
+  } catch (err) {
+      res.status(500).json({ message: err.message });
+  }
+}
+
+export { getPlaceById, getPlacesByCategory,fetchPlaces,getPlaceBySearch }

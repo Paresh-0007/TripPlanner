@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs - TripPlanner</title>
     <link rel="stylesheet" href="style.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
     <!---------------- HEADER-------------------->
 
@@ -31,7 +31,8 @@
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92c">Bhogwe Beach</a></li>
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b932">Kalavantin Durg trek</a></li>
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92a">Ambabai Temple</a></li>
-                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92b">Bhagwan Mahavir Wildlife Sanctuary</a></li>
+                        <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b92b">Bhagwan Mahavir Wildlife
+                                Sanctuary</a></li>
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b935">Karla Caves</a></li>
                         <li><a href="./location/place.html?id=66ff91a0b5aaac5c3808b934">Kandhar Fort</a></li>
                     </ul>
@@ -59,8 +60,8 @@
 
     <section class="blogs">
         <h2>Latest Blogs</h2>
-        <div class="blog-grid">
-            <div class="blog-card">
+        <div class="blog-grid" id="blog-grid">
+            <!-- <div class="blog-card">
                 <img src="./images/blog1.jpg" alt="Top 10 Waterfalls in Maharashtra" class="blog-image">
                 <div class="blog-content">
                     <h3>Top 10 Waterfalls in Maharashtra</h3>
@@ -68,34 +69,8 @@
                        <strong>Summary:</strong> Explore the most spectacular waterfalls in Maharashtra, each offering unique natural beauty and adventure opportunities.</p>
                     <a href="./blog-page/blog.html" class="read-more-link">Read More</a>
                 </div>
-            </div>
-            <div class="blog-card">
-                <img src="./images/blog2.jpg" alt="Guide to Maharashtra's Forts" class="blog-image">
-                <div class="blog-content">
-                    <h3>Guide to Maharashtra's Forts</h3>
-                    <p><strong>Location:</strong> Various Locations<br>
-                       <strong>Summary:</strong> Discover the historic forts of Maharashtra, their rich history, and the scenic views they offer.</p>
-                    <a href="#" class="read-more-link">Read More</a>
-                </div>
-            </div>
-            <div class="blog-card">
-                <img src="./images/blog3.png" alt="Top Beaches in Maharashtra" class="blog-image">
-                <div class="blog-content">
-                    <h3>Top Beaches in Maharashtra</h3>
-                    <p><strong>Location:</strong> Various Locations<br>
-                       <strong>Summary:</strong> A comprehensive guide to the best beaches in Maharashtra, perfect for a relaxing getaway or adventure.</p>
-                    <a href="#" class="read-more-link">Read More</a>
-                </div>
-            </div>
-            <div class="blog-card">
-                <img src="./images/blog4.jpg" alt="Exploring Maharashtra's Wildlife" class="blog-image">
-                <div class="blog-content">
-                    <h3>Exploring Maharashtra's Wildlife</h3>
-                    <p><strong>Location:</strong> Various Locations<br>
-                       <strong>Summary:</strong> Dive into the diverse wildlife of Maharashtra, including national parks and wildlife sanctuaries.</p>
-                    <a href="#" class="read-more-link">Read More</a>
-                </div>
-            </div>
+            </div> -->
+
         </div>
     </section>
 
@@ -104,7 +79,10 @@
     <section class="stay-tuned">
         <div class="stay-tuned-info">
             <h2>Stay Tuned</h2>
-            <p>Stay tuned for more hidden gems and local secrets! We’re continually discovering and showcasing new and exciting destinations to enrich your travel experiences. Keep an eye out for upcoming features and detailed guides on the most beautiful and unique places to visit. We promise you won’t want to miss what’s coming next!</p>
+            <p>Stay tuned for more hidden gems and local secrets! We’re continually discovering and showcasing new and
+                exciting destinations to enrich your travel experiences. Keep an eye out for upcoming features and
+                detailed guides on the most beautiful and unique places to visit. We promise you won’t want to miss
+                what’s coming next!</p>
         </div>
         <img src="./images/staytuned.jpg" alt="Stay Tuned Image">
     </section>
@@ -115,12 +93,16 @@
         <div class="container footer-content">
             <div class="about-us">
                 <h4>About Us</h4>
-                <p>Welcome to your insiders guide to authentic travel experiences. Discover hidden gems and essential tips from locals to explore destinations like never before!</p>
+                <p>Welcome to your insiders guide to authentic travel experiences. Discover hidden gems and essential
+                    tips from locals to explore destinations like never before!</p>
                 <div class="social-icons">
-                    <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="./images/instagram.png" alt="Instagram"></a>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="./images/instagram.png"
+                            alt="Instagram"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png"
+                            alt="Facebook"></a>
                     <a href="https://x.com/?lang=en" target="_blank"><img src="./images/x.png" alt="Twitter"></a>
-                    <a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube.png" alt="YouTube"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube.png"
+                            alt="YouTube"></a>
                 </div>
             </div>
             <div class="query-form">
@@ -134,6 +116,39 @@
             </div>
         </div>
     </footer>
-    <script src="./script.js"></script>
+    <script>
+        //BLOGS
+        const fillBlogsInfo = (data) => {
+            var blogGrid = document.getElementById("blog-grid");
+            blogGrid.innerHTML = "";
+            for (var blog of data) {
+                // console.log(blog);
+
+                blogGrid.innerHTML += `
+            <div class="blog-card">
+                <img src="${blog.image}" alt="${blog.title}"  >
+                <p class="title">${blog.title}</p>
+                <p>${blog.introduction.substr(0, 150)}...</p>
+                <a href="./blog-page/blog.html?id=${blog._id}" class="read-more-link">Read More</a>
+            </div>
+    `;
+            }
+        };
+
+        const fetchBlogData = async () => {
+            const response = await fetch("http://localhost:8000/api/blogs/collection", {
+                credentials: "include",
+            });
+
+            const data = await response.json();
+
+            if (data) {
+                fillBlogsInfo(data);
+            }
+        };
+
+        fetchBlogData()
+    </script>
 </body>
+
 </html>
