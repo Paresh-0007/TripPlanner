@@ -1,0 +1,108 @@
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=The+Seasons:wght@400&display=swap");
+
+* {
+  user-select: none;
+  
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.info-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-container h2 {
+    color: #007bff;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info-section {
+    margin-bottom: 15px;
+}
+
+.info-section strong {
+    color: #333;
+    font-size: 18px;
+}
+
+.info-section p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .info-container {
+        padding: 25px;
+    }
+
+    .info-container h2 {
+        font-size: 28px;
+    }
+
+    .info-section strong {
+        font-size: 16px;
+    }
+
+    .info-section p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .info-container {
+        padding: 20px;
+    }
+
+    .info-container h2 {
+        font-size: 24px;
+    }
+
+    .info-section strong {
+        font-size: 15px;
+    }
+
+    .info-section p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .info-container {
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .info-container h2 {
+        font-size: 22px;
+    }
+
+    .info-section strong {
+        font-size: 14px;
+    }
+
+    .info-section p {
+        font-size: 13px;
+    }
+}

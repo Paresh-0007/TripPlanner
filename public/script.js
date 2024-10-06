@@ -8,7 +8,6 @@ menuToggle.addEventListener("click", () => {
 
 // Price value script
 
-
 const priceRange = document.getElementById('priceRange');
 const priceValue = document.getElementById('priceValue');
 
@@ -111,6 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   fetchUserInfo();
 });
+
 
 //Hidden Gems
   const fillGemInfo = (data) =>{
