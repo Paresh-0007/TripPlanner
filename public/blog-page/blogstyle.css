@@ -1,0 +1,569 @@
+/* General Styles */
+
+@import url("https://fonts.googleapis.com/css2?family=The+Seasons:wght@400&display=swap");
+
+* {
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/***************** NAVBAR ****************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  position: relative;
+  flex-grow: 1;
+  text-align: center;
+  margin-left: 70px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav .sign-up {
+  margin-left: 20px;
+  background-color: #0044cc;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav .sign-up:hover {
+  background-color: #0033a0;
+  transition: all 0.2s ease-in-out;
+}
+
+nav .arrow {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.user-profile {
+  cursor: pointer;
+}
+
+/************** DROPDOWN ****************/
+
+nav .dropdown:hover .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: -50px;
+  /* 0px */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 200px;
+  z-index: 1000;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/************ Blog content ************/
+.main-section {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #fff;
+  /* padding: 30px; */
+  /* border-radius: 12px; */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* Title */
+.title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #007bff;
+  font-weight: 700;
+}
+
+/* Waterfall Image */
+.waterfall-image {
+  display: block;
+  max-width: 800px;
+  height: auto;
+  border-radius: 20px;
+  margin: 0 auto 25px auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Introduction */
+.introduction {
+  font-size: 18px;
+  background-color: #e9f7ff;
+  padding: 20px;
+  border-left: 5px solid #007bff;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  color: #333;
+  line-height: 1.8;
+}
+
+.introduction p {
+  margin-bottom: 15px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* Waterfall List */
+.waterfall-list {
+  list-style-type: decimal;
+  margin-left: 30px;
+}
+
+.waterfall-list h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.waterfall-list p {
+  width: 85%;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+/* Conclusion */
+
+.conclusion-box {
+  margin: 45px 15px;
+}
+
+.conclusion {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #444;
+}
+
+/*************** FOOTER ****************/
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.about-us,
+.query-form {
+  flex: 1;
+}
+
+.about-us h4,
+.query-form h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.social-icons img {
+  width: 35px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.query-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.query-form input,
+.query-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.query-form button {
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.query-form button:hover {
+  background-color: #005f6b;
+  transform: scale(1.05);
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1001; /* Ensure it stays above the nav */
+}
+
+.menu-toggle span {
+  background-color: #000;
+  height: 3px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  nav ul {
+    margin-left: 20px;
+  }
+
+  nav ul li {
+    margin-left: 40px;
+  }
+
+  .sign-up {
+    padding: 8px 15px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  /* Image responsiveness for medium screens */
+  .waterfall-image {
+    max-width: 700px;
+  }
+
+  .waterfall-list h2 {
+    font-size: 24px;
+  }
+
+  .introduction,
+  .conclusion {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 15px;
+  }
+
+  nav {
+    /* width: 100%; */
+    display: contents;
+  }
+
+  nav .dropdown-menu {
+    left: 0;
+    position: static;
+    width: fit-content;
+    display: none;
+  }
+
+  nav .dropdown:hover .dropdown-menu {
+    display: inline-block;
+    position: static;
+    height: auto;
+    overflow-y: visible;
+  }
+
+  .menu-toggle {
+    display: flex;
+    cursor: pointer;
+    z-index: 0;
+    height: 25px;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav .sign-up {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Make sure nav is hidden by default and fully opens on toggle */
+  nav ul {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 80%;
+    background-color: white;
+    height: auto;
+    padding: 10px 20px;
+    z-index: 1000;
+    overflow-y: auto;
+  }
+
+  /* Ensure ul opens properly */
+  nav ul.open {
+    display: flex;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+
+  /* Reduce space between items */
+  nav ul li {
+    width: 100%; /* Makes the items take up full width */
+    margin-bottom: 15px; /* Add space between items */
+    margin: 10px 0;
+    flex-grow: 0;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    padding: 8px 20px; /* Adjust padding for better appearance */
+    display: block;
+    text-align: left;
+    /* width: 100%; */
+    font-size: 18px;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  /* Sign-up button styling */
+  nav .sign-up {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    background-color: #0044cc;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  nav .sign-up:hover {
+    background-color: #0033a0;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+  .logo img {
+    height: 60px;
+    margin-right: 10px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .main-section {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  /* Image responsiveness for tablets */
+  .waterfall-image {
+    max-width: 600px;
+    border-radius: 15px; /* Adjusted corner radius for smaller screens */
+  }
+
+  .waterfall-list h2 {
+    font-size: 22px;
+  }
+
+  .introduction,
+  .conclusion {
+    font-size: 16px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-us,
+  .query-form {
+    flex: 100%;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul li a {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+
+  nav .dropdown:hover .dropdown-menu {
+    position: static;
+    height: auto;
+    display: inline-block;
+  }
+
+  .sign-up {
+    padding: 10px;
+  }
+
+  .main-section {
+    width: 95%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  /* Image responsiveness for mobile */
+  .waterfall-image {
+    max-width: 100%;
+    border-radius: 10px; /* Reduced border radius for small screens */
+  }
+
+  .waterfall-list {
+    margin-left: 0px;
+  }
+
+  .waterfall-list h2 {
+    font-size: 20px;
+  }
+
+  .waterfall-list p {
+    width: 90%;
+  }
+
+  .introduction,
+  .conclusion {
+    font-size: 14px;
+  }
+}
