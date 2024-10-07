@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const button = document.getElementById("sign-up");
         const profileImageElement = document.getElementById("profileImage");
         button.innerHTML = "Log Out";
-        button.href = "/Login/index.html";
+        button.href = "/login/index.html";
         profileImageElement.src = `${data.data.avatar}`;
         profileImageElement.style =
           "display:block; height: 50px; border-radius: 50px; ";
