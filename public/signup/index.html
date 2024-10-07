@@ -103,7 +103,7 @@
                     if (response.ok) {
                         const result = await response.json();
                         alert("Registration Successful!"); // Debugging line
-                        window.location.href = "../Login/index.html"; // Redirect on success
+                        window.location.href = "../login/index.html"; // Redirect on success
                     } else {
                         const errorMessage = await response.text();
                         error.innerHTML = "Failed to sign up. " + errorMessage; // Show error from server response
