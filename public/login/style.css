@@ -20,7 +20,7 @@ a{
 
 .login-page{
   width: 350px;
-  height: 450px;
+  height: 475px;
   margin-left: 1px;
   border-radius: 1rem;
   background: rgb(235, 235, 235);
@@ -49,6 +49,7 @@ a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .login-page form input{

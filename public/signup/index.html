@@ -11,6 +11,11 @@
 <body>
 
     <div class="sign-up-page">
+        <div style="margin-bottom: 10px;">
+            <div class="reg-logo">
+                <img src="../images/logo.png" alt="">
+            </div>
+        </div>
         <h1>Sign-Up</h1>
         <div id="error" class="text-danger"></div>
         <form id="signup-form" method="post" enctype="multipart/form-data">
@@ -18,13 +23,14 @@
             <input type="email" id="email" name="email" required placeholder="Enter E-mail">
             <input type="password" id="password" name="password" required placeholder="Enter Password">
             <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password">
+            <label style="font-size: 14px; text-align: left;">Uplaod user profile: </label>
             <input type="file" id="avatar" name="avatar" accept="image/*" required>
             <img id="avatarPreview" src="" alt="Avatar Preview" style="display: none; max-width: 150px; margin-top: 10px; border-radius: 50%;"/>
             <button type="submit" class="btn btn-primary">Sign Up</button>
             <a href="../login/index.html"><div class="link-ar"><p>Already registered? Log in</p></div></a>
         </form>
 
-        <div class="icons">
+        <!-- <div class="icons">
             <a href="../admin.html">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
@@ -33,7 +39,7 @@
                     <i class="bi-person-fill"></i><span>Admin</span>
                 </div>
             </a>
-        </div>
+        </div> -->
     </div>
 
     <script>

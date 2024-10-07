@@ -161,7 +161,7 @@ const fillBlogsInfo = (data) => {
                 <img src="${blog.image}" alt="${blog.title}"  >
                 <p class="title">${blog.title}</p>
                 <p>${blog.introduction.substr(0,150)}...</p>
-                <a href="./blog-page/blog.html?id=${blog._id}" class="read-more-link">Read More</a>
+                <a href="./blog-page/blog.html?id=${blog._id}" class="read-more-link">Read More</a> 
             </div>
     `;
   }
@@ -245,7 +245,7 @@ searchButton.addEventListener("click", async () => {
     resultsDiv.innerHTML = "";
 
     if (places.length === 0) {
-      resultsDiv.style = "display:none";
+      resultsDiv.style = "display:none;";
       alert("No place found !");
     } else {
       places.forEach((place) => {
@@ -255,12 +255,12 @@ searchButton.addEventListener("click", async () => {
         // placeItem.textContent = `${place.name} - ${place.place_type} - ${place.region}`;
         placeItem.innerHTML = `<img src=${
           place.images[0]
-        } style="height:66px; width:100px; border-radius:2px;">
-                               <div style = "padding:5px; text-align:left;">
-                               <strong style="text-align:left">${
+        } style="height:66px; width:100px; border-radius:8px;">
+                               <div style = "width: 100%; padding:5px; text-align:left; margin-left: 15px;">
+                               <strong style="text-align:left;  color: black;">${
                                  place.name
                                }</strong>
-                               <p style="text-align:left; padding:0px;">${
+                               <p style="text-align:left; padding:0px; margin-top: 5px;">${
                                  place.place_type.charAt(0).toUpperCase() +
                                  place.place_type.slice(1)
                                }</p>
