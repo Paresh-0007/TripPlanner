@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (response.ok) {
               alert("User Logged Out Successfully!");
               // Optionally, redirect to the login page or update the UI
-              window.location.href = "/Login/index.html";
+              window.location.href = "/login/index.html";
             } else {
               alert("Logout failed. Please try again.");
             }
