@@ -1,0 +1,675 @@
+[{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b929"
+  },
+  "name": "Ajobagad Fort trek",
+  "description": "Ajobagad Fort, located near the village of Dehene in the Shahapur region, is an ancient fort with historical connections to Valmiki’s Ramayana. The trek to Ajobagad is steeped in mythological significance, as it is believed that Valmiki’s ashram was located here and that Sita stayed in this region during her exile. The trail starts from Dehene village, passing through dense forests, rocky outcrops, and natural caves. The trek is moderately challenging, with sections that require careful climbing, especially during the monsoon. At the summit, the ruins of the fort and caves are a reminder of the fort’s strategic importance in the past. The trek offers stunning views of the surrounding valleys, and during monsoon, the area transforms into a lush green paradise with several waterfalls along the way.",
+  "best_time_to_visit": "July to January. This period is ideal for trekking as the weather is pleasant, and the lush greenery during the monsoon enhances the natural beauty of the surroundings.",
+  "minimum_budget": "₹8000. This budget typically includes transportation to and from the trek starting point, accommodation for a night, meals, and any additional trekking permits if required.",
+  "min_budget": "8000",
+  "place_type": "trek, fortcave",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.1135375165116!2d73.4232478!3d19.7612264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be790a4d0f40c0d%3A0xf4535e5391dc8f89!2sAjobagad%20Fort!5e0!3m2!1sen!2sin!4v1696246124171!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Ajobagad Fort Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.7612,
+    "long": 73.4232
+  },
+  "region": "Shahapur, Thane District",
+  "images": [
+    "https://i.ibb.co/yqCs6dd/1.jpg",
+    "https://i.ibb.co/VvpVJVt/2.jpg",
+    "https://i.ibb.co/xD3SwSh/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "The nearest railway station is Asangaon. From Asangaon, take local transport to Dehene village.",
+    "car": "Drive from Mumbai via NH3 towards Shahapur, and then to Dehene village.",
+    "bus": "From Mumbai or Thane, take a bus to Shahapur, then hire a local jeep or bus to Dehene village."
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b92a"
+  },
+  "name": "Ambabai Temple",
+  "description": "The Ambabai Temple in Kolhapur is dedicated to Goddess Ambabai (Mahalakshmi) and is a hidden gem compared to more famous temples in Maharashtra. Surrounded by picturesque hills, the temple boasts intricate architecture and a calm atmosphere. The temple is lesser-known among tourists, making it a peaceful spot for devotion. The annual festival of Navratri draws more visitors, but off-season visits offer solitude and a chance to connect with the divine.",
+  "best_time_to_visit": "September to March. This period is ideal for visiting the Ambabai Temple as the pleasant weather enhances the spiritual experience and allows for peaceful contemplation.",
+  "minimum_budget": "₹4000. This budget generally covers transportation, accommodation, meals, and any other expenses during your visit.",
+  "min_budget": "4000",
+  "place_type": "religious",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4762025788033!2d74.2124371!3d16.8456086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3 m3!1m2!1s0x3bc11c2c3de7b20d%3A0xd1338996e56e80e8!2sAmbabai%20Temple!5e0!3m2!1sen!2sin!4v1696246270178!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Ambabai Temple Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 16.6951,
+    "long": 74.2241
+  },
+  "transportation_modes": {
+    "train": "Nearest station is Kolhapur (8 km away).",
+    "car": "Accessible via the NH48 from Pune to Kolhapur.",
+    "bus": "Local buses from Pune and Sangli to Kolhapur."
+  },
+  "region": "Kolhapur",
+  "images": [
+    "https://i.ibb.co/25dqnx2/1.jpg",
+    "https://i.ibb.co/Y8h4Z8V/2.jpg",
+    "https://i.ibb.co/4fRtf1n/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b92b"
+  },
+  "name": "Bhagwan Mahavir Wildlife Sanctuary",
+  "description": "Situated near the border of Karnataka, this sanctuary is renowned for its rich biodiversity and stunning landscapes. The park is home to leopards, tigers, and a variety of birds, making it a great destination for wildlife enthusiasts. The sanctuary offers trekking trails, waterfalls, and picturesque views of the Western Ghats. With fewer visitors than other national parks, it is an ideal place to experience nature's tranquility and beauty away from the crowds.",
+  "best_time_to_visit": " November to February. During these months, the weather is cool and pleasant, making it an ideal time for wildlife viewing and trekking. The monsoon season transforms the sanctuary into a lush green paradise, but the best sightings and treks are enjoyed post-monsoon.",
+  "minimum_budget": "₹5000. This budget covers accommodation in basic lodges, park entry fees, and local transportation. Depending on your preferences, costs may increase if you choose premium accommodations or private guided tours.",
+  "min_budget": "5000",
+  "place_type": "nationalpark",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3156345003643!2d74.1677055!3d15.4153196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfa6eb702a5eb9%3A0x6eafc4cb8e98b83!2sBhagwan%20Mahavir%20Wildlife%20Sanctuary!5e0!3m2!1sen!2sin!4v1696246306679!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Bhagwan Mahavir Wildlife Sanctuary Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 15.2989,
+    "long": 74.2423
+  },
+  "transportation_modes": {
+    "train": "The nearest railway station is Sawantwadi, from which local transport can be arranged.",
+    "car": "The drive from Pune (approximately 360 km) takes around 8-9 hours via NH 66.",
+    "bus": "Buses are available from major towns like Amboli and Sawantwadi."
+  },
+  "region": "Western Ghats",
+  "images": [
+    "https://i.ibb.co/qyN0FQS/3.jpg",
+    "https://i.ibb.co/DztBSVv/2.jpg",
+    "https://i.ibb.co/3NZB0Hb/1.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b92c"
+  },
+  "name": "Bhogwe Beach",
+  "description": "Bhogwe Beach is a quiet, pristine gem along the Konkan coast, offering a stunning stretch of clean sand and clear blue waters. It is ideal for those looking for a secluded escape. The beach provides a breathtaking view of the merging of the Karli River with the Arabian Sea. Surrounded by coconut groves and palm trees, it’s perfect for long walks, bird watching, and sunset photography. Bhogwe is also known for occasional sightings of dolphins and a peaceful environment.",
+  "best_time_to_visit": "October to March. The cooler months are ideal for visiting Bhogwe Beach, as the weather is pleasant and perfect for beach activities like swimming and sightseeing. The monsoon season makes the area lush, but the post-monsoon period is best for outdoor exploration.",
+  "minimum_budget": "₹8500.This budget will cover basic accommodation, meals, and transportation to and from the beach for a short trip. Bhogwe offers some affordable homestays and small resorts, making it ideal for budget-conscious travelers.",
+  "min_budget": "8500",
+  "place_type": "beach",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.823705417409!2d73.4764424!3d16.0660069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1259d3e47d85b%3A0xf725af95f3b333af!2sBhogwe%20Beach!5e0!3m2!1sen!2sin!4v1696246358678!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Bhogwe Beach Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 15.908,
+    "long": 73.509
+  },
+  "transportation_modes": {
+    "train": "Nearest train station is Kudal (30 km away). From Kudal, local buses or taxis are available to reach Bhogwe.",
+    "car": "Accessible by road via NH66. The drive is scenic, passing through lush coconut groves and coastal roads.",
+    "bus": "Direct buses are available to Kudal from major cities. From Kudal, taxis or local transport can be used to reach Bhogwe."
+  },
+  "region": "Sindhudurg, Konkan",
+  "images": [
+    "https://i.ibb.co/HYcJHSZ/1.jpg",
+    "https://i.ibb.co/G3sywRx/2.jpg",
+    "https://i.ibb.co/L9F8k64/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b92d"
+  },
+  "name": "Buddhist Caves",
+  "description": "The Kanheri Caves, located within the Sanjay Gandhi National Park in Mumbai, are a complex of ancient rock-cut Buddhist caves dating back to the 1st century BC. These caves were once a prominent center for Buddhist learning and feature intricate carvings and sculptures. The site is surrounded by lush greenery, offering a serene escape from the city. Visitors can explore the beautifully preserved viharas (monasteries) and chaityas (prayer halls), making it an ideal spot for history enthusiasts and spiritual seekers. The peaceful atmosphere and rich history make it a lesser-known treasure for those seeking a unique experience.",
+  "best_time_to_visit": "October to March: The cooler months are perfect for exploring the Buddhist caves, as the weather is pleasant for outdoor activities and sightseeing. The dry season ensures better accessibility to the caves and allows for comfortable exploration of the intricate carvings and structures.",
+  "minimum_budget": "₹7000: This budget will cover basic accommodation, meals, and transportation for a short trip to the caves. There are several budget-friendly lodging options available nearby, including guesthouses and budget hotels, making it suitable for travelers looking to explore without overspending.",
+  "min_budget": "7000",
+  "place_type": "religious ,fortcave",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.451004762438!2d73.678708!3d16.8545458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10fd5941f938b%3A0x3a55c9837 ad00c84!2sBuddhist%20Caves!5e0!3m2!1sen!2sin!4v1696246400394!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Buddhist Caves Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.2031,
+    "long": 72.8982
+  },
+  "transportation_modes": {
+    "train": "Nearest station is Borivali (about 6 km away), which connects to the local transport.",
+    "car": "Accessible via the Western Express Highway to the Sanjay Gandhi National Park entrance.",
+    "bus": "Local buses from various parts of Mumbai to Borivali, followed by a short auto-rickshaw ride to the caves."
+  },
+  "region": "Kanheri ,Mumbai",
+  "images": [
+    "https://i.ibb.co/VBHChFG/1.jpg",
+    "https://i.ibb.co/vZL3VGR/2.jpg",
+    "https://i.ibb.co/X7JVW4H/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b92e"
+  },
+  "name": "Chandoli National Park",
+  "description": "Located in the Sangli district, Chandoli National Park is a lesser-known sanctuary known for its dense forests and diverse wildlife, including tigers and Indian bison. The park's rich biodiversity and scenic beauty make it a great destination for nature lovers. Visitors can explore the picturesque trails, spot wildlife, and enjoy the peaceful ambiance. The park is also home to the Chandoli Dam, adding to the scenic landscape. With minimal crowds, it offers an excellent opportunity for solitude and reflection amidst nature.",
+  "best_time_to_visit": "October to March. The cool and dry season is perfect for exploring trails, spotting wildlife, and enjoying the serene environment. During this time, water sources are more limited, concentrating wildlife near visible waterholes.",
+  "minimum_budget": "₹9000. This budget includes mid-range accommodation, park entrance fees, and transport from nearby cities like Sangli or Kolhapur. Additional expenses may be incurred for guided safaris or private tours.",
+  "min_budget": "9000",
+  "place_type": "nationalpark",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.4054815096977!2d74.1411012!3d16.8453476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc30d9fc302da9f%3A0xbc18bbf13d99b5e2!2sChandoli%20National%20Park!5e0!3m2!1sen!2sin!4v1696246449391!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Chandoli National Park Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 16.833,
+    "long": 73.8514
+  },
+  "transportation_modes": {
+    "train": "The nearest railway station is Miraj Junction, followed by a taxi or bus to the park.",
+    "car": "A drive from Pune (approximately 290 km) takes around 6-7 hours.",
+    "bus": "Buses run from Sangli and other nearby cities."
+  },
+  "region": "Western Maharashtra",
+  "images": [
+    "https://i.ibb.co/PFGZHsc/1.jpg",
+    "https://i.ibb.co/njv9nQH/2.jpg",
+    "https://i.ibb.co/fYnGWPr/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b92f"
+  },
+  "name": "Dahanu Beach",
+  "description": "Dahanu Beach is a hidden gem in the Palghar district, offering a quiet and serene environment perfect for weekend getaways. The beach stretches over a long distance and is lined with coconut trees and lush greenery. With fewer visitors than the popular beaches, Dahanu offers tranquility and beautiful views of the Arabian Sea. You can also explore the nearby Warli village to witness traditional tribal art and culture .",
+  "best_time_to_visit": "October to February. During these months, Dahanu Beach experiences cooler and pleasant weather, perfect for long beach walks and exploring nearby attractions like the Warli tribal villages. Avoid the monsoon season as it can be quite humid and rainy.",
+  "minimum_budget": " ₹9500. This budget will comfortably cover accommodation in local guesthouses, meals, and transportation, making it a suitable weekend escape from nearby cities like Mumbai or Pune. You can also enjoy local attractions like the Warli art village.",
+  "min_budget": "9500",
+  "place_type": "beach",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3776.235227436263!2d72.715719!3d19.9986647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be6927f40db8437%3A0x9e17c1f56ff4317d!2sDahanu%20Beach!5e0!3m2!1sen!2sin!4v1696246490419!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Dahanu Beach Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.9879,
+    "long": 72.7128
+  },
+  "transportation_modes": {
+    "train": "Nearest train station is Dahanu Road (3 km away). Local transport like rickshaws is available from the station to the beach.",
+    "car": "Accessible by road via NH48 and SH5. The drive is smooth and passes through coastal villages.",
+    "bus": "Direct buses are available to Dahanu from major cities. Local transport can be used to reach the beach."
+  },
+  "region": "Palghar,Northern Maharashtra (Palghar)",
+  "images": [
+    "https://i.ibb.co/tpCh2H6/1.jpg",
+    "https://i.ibb.co/FKqMXNs/2.png",
+    "https://i.ibb.co/bL9M22F/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b930"
+  },
+  "name": "Harishchandragad and Harishchandra Temple",
+  "description": "Harishchandragad is a magnificent hill fort located in the Ahmednagar district, known for its challenging treks and stunning views. The fort houses the ancient Harishchandra Temple, dedicated to Lord Vishnu, which is set amidst lush greenery and rocky landscapes. The trek to Harishchandragad is popular among adventure enthusiasts, offering breathtaking panoramas of the surrounding hills and valleys. The temple is a peaceful place for worship, with a serene atmosphere that allows visitors to connect with nature and spirituality. This hidden gem is less crowded compared to other trekking spots, making it a tranquil escape for those seeking adventure and peace in nature. The fort also features unique rock-cut cisterns and caves that add to its historical significance.",
+  "best_time_to_visit": "October to February",
+  "minimum_budget": "₹6000",
+  "min_budget": "6000",
+  "place_type": "religious ,trek",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.335505216275!2d73.782457!3d19.3939864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be792fce81df777%3A0x43dff5f02157b4f9!2sHarishchandragad%20trek!5e0!3m2!1sen!2sin!4v1696246536552!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Harishchandragad and Harishchandra Temple Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.3291,
+    "long": 73.5885
+  },
+  "transportation_modes": {
+    "train": "Nearest station is Kasara (around 40 km away).",
+    "car": "Accessible via the NH60 from Ahmednagar.",
+    "bus": "Local buses from Ahmednagar to the base village of Khireshwar, with rickshaws available for the last mile."
+  },
+  "region": "Ahmednagar",
+  "images": [
+    "https://i.ibb.co/pykpRmx/1.jpg",
+    "https://i.ibb.co/YQpKT3n/2.jpg",
+    "https://i.ibb.co/6tprkQs/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b931"
+  },
+  "name": "Harnai-Anjarle",
+  "description": "Harnai and Anjarle are twin beach villages located in the Ratnagiri district, known for their quiet, scenic beauty and religious significance. Harnai Beach is an uncrowded, clean beach perfect for long walks, sunset views, and relaxation. It is also famous for its fish auctions, where fresh seafood is sold daily. A short drive away lies Anjarle Beach, which is home to the ancient Ganesh temple located on a hillock, popularly known as \"Kadyawarcha Ganpati\". This temple is revered by the locals and offers a panoramic view of the Arabian Sea. The pristine coastline, lush green hills, and religious aura make this a perfect mix of spiritual and coastal retreat.",
+  "best_time_to_visit": "November to March.The winter months are the best time to explore Harnai and Anjarle, with cool breezes and moderate temperatures perfect for both relaxation and local sightseeing. It’s also a good time to visit the Kadyawarcha Ganpati temple and fish auctions.",
+  "minimum_budget": "₹9000.This budget is sufficient for a two-to-three-day trip, covering basic accommodation, transportation, and food. Both villages offer budget-friendly homestays and local dining options, making it accessible for low-budget travelers.",
+  "min_budget": "9000",
+  "place_type": "beach,religious",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.185453154987!2d73.0959307!3d17.7983661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbca9da71fa9%3A0x5bba9cfe9b423091!2sHarnai%20Beach!5e0!3m2!1sen!2sin!4v1696246681824!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Harnai-Anjarle Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 17.8487,
+    "long": 73.02
+  },
+  "transportation_modes": {
+    "train": "Nearest train station is Khed (40 km away). From Khed, local buses or taxis are available to reach Harnai-Anjarle.",
+    "car": "Accessible by road via NH66. The drive is scenic, passing through the lush green hills of the Western Ghats.",
+    "bus": "Direct buses are available to Dapoli from various major towns in Maharashtra. From Dapoli, local transport (taxis, auto-rickshaws) can be used to reach Harnai or Anjarle."
+  },
+  "region": "Sindhudurg,Konkan",
+  "images": [
+    "https://i.ibb.co/tB5HV4M/1.jpg",
+    "https://i.ibb.co/zSbt0hF/2.jpg",
+    "https://i.ibb.co/CJtrccH/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b932"
+  },
+  "name": "Kalavantin Durg trek",
+  "description": "Kalavantin Durg, located near Panvel, is one of the most thrilling and adventurous treks in Maharashtra, known for its iconic rock-cut steps that lead to the summit. The fort, situated at an elevation of around 2,300 feet, was originally used as a watchtower and offers stunning 360-degree views of the Western Ghats, Prabalgad Fort , and the surrounding valleys. The trek begins at Thakurwadi village and takes trekkers through dense forests before reaching the base of the fort. From there, the final ascent involves climbing steep rock-cut steps, which can be challenging, especially during the monsoon when the rocks become slippery. The summit rewards trekkers with unparalleled views and a sense of accomplishment, making it a perfect destination for thrill-seekers and nature lovers.",
+  "best_time_to_visit": "September to February. This timeframe provides optimal trekking conditions with clear skies and moderate temperatures, making the journey more enjoyable.",
+  "minimum_budget": "₹10000. This budget includes transportation costs, meals, and accommodation, ensuring a comfortable experience throughout the trek.",
+  "min_budget": "10000",
+  "place_type": "trek",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.7963024749294!2d73.2299455!3d19.0531981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be801f1cb999ddf%3A0x64a3790dfc0cfb61!2sKalavantin%20Durg!5e0!3m2!1sen!2sin!4v1696246741829!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Kalavantin Durg Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 18.9755,
+    "long": 73.1659
+  },
+  "region": "Raigad",
+  "images": [
+    "https://i.ibb.co/mBfzRDb/1.jpg",
+    "https://i.ibb.co/JKHdMtB/2.jpg",
+    "https://i.ibb.co/1RLQqgD/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "Nearest railway station is Panvel. From there, take an auto or bus to the base.",
+    "car": "Drive via the Mumbai-Pune Expressway to Thakurwadi.",
+    "bus": "Take a bus to Panvel and then a shared auto or local bus to Thakurwadi."
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b933"
+  },
+  "name": "Kalsubai Peak trek",
+  "description": "Kalsubai Peak, standing at 5,400 feet, is the highest peak in Maharashtra, often referred to as the \"Everest of Maharashtra.\" The trek to Kalsubai offers a thrilling experience for adventure seekers, with varied landscapes including dense forests, fields, and rocky terrain. The climb is moderate, but the ascent is made easier with iron ladders placed strategically on steep sections. Along the way, trekkers can enjoy magnificent views of the surrounding forts such as Alang, Madan, Kulang, and Ratangad. At the summit, a small temple dedicated to Kalsubai Devi adds a spiritual touch, drawing local devotees. The peak is a popular destination for sunrise views, where trekkers are greeted with a stunning spectacle as the sun rises over the Sahyadri range.",
+  "best_time_to_visit": "June to September (for monsoon views) or November to February. Both periods provide unique experiences, with the monsoon offering lush greenery and the winter ensuring clear skies.",
+  "minimum_budget": "₹7000. This budget covers travel expenses, food, accommodation, and any necessary trekking gear, ensuring a safe and enjoyable trek.",
+  "min_budget": "7000",
+  "place_type": "trek",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.2785512760625!2d73.6606545!3d19.0730306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be73e1d046f2d73%3A0x4f873e6c2c974d91!2sKalsubai%20Peak!5e0!3m2!1sen!2sin!4v169624 7138387!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Kalsubai Peak Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.6062,
+    "long": 73.7099
+  },
+  "region": "Indore , Ahmednagar",
+  "images": [
+    "https://i.ibb.co/1RLQqgD/3.jpg",
+    "https://i.ibb.co/bHJ7ZfR/2.jpg",
+    "https://i.ibb.co/1JBPDYt/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "Nearest station is Igatpuri. From there, take a shared cab or local bus.",
+    "car": "Drive via NH 160 to Bari village from Mumbai or Pune.",
+    "bus": "Take a bus to Igatpuri or Ghoti and a local bus to Bari village (the trek base)."
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b934"
+  },
+  "name": "Kandhar Fort",
+  "description": "Kandhar Fort, situated in the Nanded district, is a hidden treasure boasting ancient architecture and historical significance. The fort features impressive stone walls and bastions, with remnants of temples and water tanks that add to its charm. The trek to the fort is moderately challenging and rewards you with stunning views of the surrounding landscapes. The fort is relatively unknown, allowing visitors to explore its beauty without the crowds.",
+  "best_time_to_visit": "October to March.During this period, the weather is pleasant, making the moderately challenging trek to Kandhar Fort more enjoyable. The cooler temperatures and clear skies offer great conditions for exploring the fort and capturing stunning views of the surrounding landscapes.",
+  "minimum_budget": " ₹7000.This budget covers transportation to the fort from Nanded, simple accommodation in nearby areas, and meals for a couple of days. Kandhar Fort is relatively affordable, and you can find budget lodging options in the vicinity.",
+  "min_budget": "7000",
+  "place_type": "fortcave",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15315.891797317275!2d77.14573555063382!3d19.317026515014775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd5c1b2f10b33d7%3A0x5ff58618ec0b2e29!2sKandhar%20Fort!5e0!3m2!1sen!2sin!4v1696201536575!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Kandhar Fort\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.317,
+    "long": 77.1457
+  },
+  "region": "Nanded",
+  "images": [
+    "https://i.ibb.co/443zYkT/1.jpg",
+    "https://i.ibb.co/hHRFb5C/2.jpg",
+    "https://i.ibb.co/MpKnF9c/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "The nearest railway station is Nanded; take a taxi to reach the fort.",
+    "car": "Drive from Nanded via NH 61.",
+    "bus": "Buses are available from Nanded to Kandhar."
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b935"
+  },
+  "name": "Karla Caves",
+  "description": "The Karla Caves, located near Lonavala, are a group of ancient rock-cut caves that date back to the 2nd century BC. Known for their impressive chaitya hall and intricately carved pillars, these caves offer a glimpse into the early Buddhist architecture of India. The caves are often less crowded than other tourist spots, providing a serene atmosphere to explore the fascinating carvings and historical significance. The surrounding hills and greenery enhance the beauty of the site.",
+  "best_time_to_visit": " October to March. These months provide pleasant weather conditions for exploring the ancient caves without the summer heat or monsoon rains . The greenery surrounding the caves also adds to the serene experience during this period.",
+  "minimum_budget": "₹9500.This budget will cover accommodation in nearby Lonavala, meals, and transportation to and from the caves. It also allows for some additional sightseeing around the region, making it an ideal amount for a weekend trip.",
+  "min_budget": "9500",
+  "place_type": "fortcave, religious",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.457215932377!2d73.4740645!3d18.7551834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9abf4314a57%3A0x5d228bb40f6e58d4!2sKarla%20Caves!5e0!3m2!1sen!2sin!4v1696246917759!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Karla Caves Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 18.7581,
+    "long": 73.4065
+  },
+  "region": "Pune",
+  "images": [
+    "https://i.ibb.co/WPYsd6G/1.jpg",
+    "https://i.ibb.co/VJ0XL6V/2.jpg",
+    "https://i.ibb.co/j5YR6Dz/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "The nearest railway station is Lonavala; then hire a taxi to the caves.",
+    "car": "Drive via the Mumbai-Pune Expressway.",
+    "bus": "Take a bus from Lonavala to the Karla Caves."
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b936"
+  },
+  "name": "Khandoba Temple",
+  "description": "Khandoba Temple, located in Jejuri, is dedicated to Lord Khandoba, a form of Lord Shiva. This ancient temple is perched atop a hill, offering stunning views of the surrounding landscape. The temple's unique architecture and vibrant festivals attract a limited number of visitors, making it a peaceful retreat. Pilgrims often visit to seek blessings, and the atmosphere is filled with devotion, especially during the Makar Sankranti festival, where traditional rituals are performed.",
+  "best_time_to_visit": "November to February. The winter months are the perfect time to explore the area, as the weather is cool and comfortable for outdoor activities and sightseeing. This period allows for a more enjoyable experience while visiting the various attractions and enjoying nature.",
+  "minimum_budget": "₹3000. This budget is sufficient for basic accommodation, meals, and transportation for a short trip. With several budget-friendly options available, including guesthouses and local eateries, travelers can enjoy a fulfilling experience without overspending.",
+  "min_budget": "3000",
+  "place_type": "religious",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.5603136026024!2d73.7436037!3d19.0778356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7990d8b4fd97d%3A0x649bb3850cfdbeca!2sKhandoba%20Temple!5e0!3m2!1sen!2sin!4v1696246974656!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Khandoba Temple Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 18.4192,
+    "long": 73.9256
+  },
+  "transportation_modes": {
+    "train": "Nearest station is Jejuri (2 km away).",
+    "car": "Accessible via the Pune-Solapur Highway (NH65).",
+    "bus": "Local buses from Pune to Jejuri, with rickshaws available for the last mile."
+  },
+  "region": "Jejuri,Pune",
+  "images": [
+    "https://i.ibb.co/1dYx7p9/1.jpg",
+    "https://i.ibb.co/Y3Y6Kg4/2.jpg",
+    "https://i.ibb.co/F7tHwCq/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b937"
+  },
+  "name": "Koyna Wildlife Sanctuary",
+  "description": "Nestled in the Western Ghats, Koyna Wildlife Sanctuary is a UNESCO World Heritage site known for its stunning landscapes and rich biodiversity. The sanctuary is home to a variety of flora and fauna, including tigers, leopards, and several species of birds. The lush greenery, waterfalls, and serene lakes provide a tranquil escape from the bustling city life. Visitors can enjoy nature trails, birdwatching, and the stunning views of the Koyna Dam. The sanctuary is less crowded than other popular parks, making it an ideal spot for nature enthusiasts seeking solitude.",
+  "best_time_to_visit": "October to April. This is the best time to explore the sanctuary as the weather is cool, and the wildlife is most active. Post-monsoon, the lush greenery and full water bodies make for scenic views.",
+  "minimum_budget": "₹7000. This budget covers entry fees, basic accommodation near the sanctuary, and transportation. If you opt for premium accommodations or a private vehicle for travel, costs may increase.",
+  "min_budget": "7000",
+  "place_type": "nationalpark",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.978603726935!2d73.7364672!3d17.4002554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc17595e776d16d%3A0xc0175c9242fcadb!2sKoyna%20Wildlife%20Sanctuary!5e0!3m2!1sen!2sin!4v1696247036758!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Koyna Wildlife Sanctuary Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 17.7798,
+    "long": 73.6952
+  },
+  "transportation_modes": {
+    "train": "The nearest railway station is Chhatrapati Shivaji Terminus, from where local trains can take you to Koynanagar.",
+    "car": "A scenic drive from Pune (approximately 165 km) takes around 4-5 hours via NH 48.",
+    "bus": "Regular state buses from major cities like Pune and Satara reach Koynanagar."
+  },
+  "region": "Western Maharashtra",
+  "images": [
+    "https://i.ibb.co/JCsBGT1/1.jpg",
+    "https://i.ibb.co/zZmSL6j/2.jpg",
+    "https://i.ibb.co/Qdy4JX7/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b938"
+  },
+  "name": "Lenyadri Caves",
+  "description": "Lenyadri Caves, located near Junnar in Pune district, are a group of 30 rock-cut caves believed to be Buddhist shrines. They are relatively unexplored and offer an offbeat experience, perfect for those seeking solitude. The highlight of the site is Cave 7, which is revered as one of the Ashtavinayak temples dedicated to Lord Ganesha. The trek to the caves is scenic, and the surrounding landscape provides a peaceful atmosphere, far from the crowded tourist hubs.",
+  "best_time_to_visit": "October to March. These months offer ideal weather conditions for exploring the destination, with cooler temperatures and clear skies. Whether it's trekking, sightseeing, or just enjoying the natural surroundings, this period ensures a comfortable and enjoyable experience.",
+  "minimum_budget": "₹10000. This budget will cover transportation, accommodation, and meals for a couple of days. It also allows for some additional activities, like hiring a local guide or visiting nearby attractions, making it perfect for a well-rounded trip.",
+  "min_budget": "10000",
+  "place_type": "fortcave",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.172622086488!2d73.8172688!3d19.5305997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc14c6484e31d09%3A0xedd3b0e4901f5f3!2sLenyadri%20Caves!5e0!3m2!1sen!2sin!4v1696246678293!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Lenyadri Caves Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.2857,
+    "long": 74.0408
+  },
+  "transportation_modes": {
+    "train": "Nearest station is Pune; take a taxi or bus to Lenyadri.",
+    "car": "Drive via the NH 60 highway.",
+    "bus": "Buses run from Pune to Junnar, then take a local transport to Lenyadri."
+  },
+  "region": "Pune",
+  "images": [
+    "https://i.ibb.co/gm0gtpV/1.jpg",
+    "https://i.ibb.co/424PQdd/2.jpg",
+    "https://i.ibb.co/19GWWjh/3.png"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b939"
+  },
+  "name": "Navegaon National Park",
+  "description": "Located in the Gondia district, Navegaon National Park is known for its beautiful lake and dense forests. The park is a haven for wildlife, including various species of deer, leopards, and numerous bird species. The serene environment and scenic beauty make it a perfect destination for birdwatching and nature walks. The park is less frequented by tourists, providing an opportunity for visitors to connect with nature in peace. The park also has boating facilities, allowing you to explore the lake's tranquility.",
+  "best_time_to_visit": "November to February. The cool climate during these months makes wildlife spotting more pleasant. The migratory birds also arrive at the park's lake, making this the perfect time for birdwatching enthusiasts.",
+  "minimum_budget": "₹5000. This amount typically covers basic accommodation, local transportation, and park entry fees. Costs may rise if opting for better lodging or private safaris.",
+  "min_budget": "5000",
+  "place_type": "nationalpark",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.6844111350585!2d79.3713906!3d20.4764913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd9db70dc9a3569%3A0x71bc27689efed430!2sNavegaon%20National%20Park!5e0!3m2!1sen!2sin!4v1696246721456!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Navegaon National Park Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 20.4282,
+    "long": 79.3647
+  },
+  "transportation_modes": {
+    "train": "Gondia Junction is the nearest railway station, with taxis available to the park.",
+    "car": "A drive from Nagpur (around 140 km) takes about 3-4 hours via NH 53.",
+    "bus": "Buses from Nagpur and Gondia provide access to the park."
+  },
+  "region": "Vidarbha",
+  "images": [
+    "https://i.ibb.co/3NZB0Hb/1.jpg",
+    "https://i.ibb.co/njv9nQH/2.jpg",
+    "https://i.ibb.co/Qdy4JX7/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b93a"
+  },
+  "name": "Pandav Leni Caves",
+  "description": "The Pandav Leni Caves, situated near Nashik, are an ancient group of rock-cut caves dating back to the 1st century BC. These caves, named after the Pandavas from the Mahabharata, showcase intricate sculptures and carvings, especially in Cave 3, which features a stunning chaitya hall. The serene surroundings and lush greenery make it a perfect getaway for history enthusiasts and nature lovers alike. The trek to the caves is moderately easy, taking you through picturesque trails that add to the experience.",
+  "best_time_to_visit": "October to March. This is the perfect time to visit the caves as the weather is cooler and more comfortable for trekking and exploring the ancient site. The natural beauty of the surroundings is at its peak during the post-monsoon season.",
+  "minimum_budget": "₹5000. A budget of ₹5000 will cover transportation to the caves, light meals, and entrance fees, making it an affordable trip for day visitors. There are inexpensive guesthouses available in Nashik for those wishing to extend their stay.",
+  "min_budget": "5000",
+  "place_type": "fortcave , religious",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.137089400338!2d73.7813358!3d19.4578961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be78f9cd82c8c9f%3A0x39bc6c4817da7c53!2sPandav%20Leni%20Caves!5e0!3m2!1sen!2sin!4v1696246756343!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Pandav Leni Caves Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.9865,
+    "long": 73.7017
+  },
+  "region": "Nashik",
+  "images": [
+    "https://i.ibb.co/MD6ZR06/1.jpg",
+    "https://i.ibb.co/WBHFk94/2.jpg",
+    "https://i.ibb.co/stYsvrK/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "The nearest railway station is Nashik; take a local taxi or bus to reach the caves.",
+    "car": "Drive from Nashik via NH 848.",
+    "bus": "Take a bus from Nashik to the Pandav Leni bus stop"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b93b"
+  },
+  "name": "Radhanagari Wildlife Sanctuary",
+  "description": "Located in the Kolhapur district, Radhanagari National Park (also known as Radhanagari Wildlife Sanctuary) is renowned for its unique biodiversity and scenic beauty. This hidden gem is home to Indian bison (gaur), deer, and several species of birds. The park offers spectacular views of hills, lakes, and waterfalls, making it a peaceful escape for nature lovers and hikers. With its relatively low tourist traffic, Radhanagari is ideal for those seeking a serene wildlife experience.",
+  "best_time_to_visit": "October to March. The post-monsoon season brings lush greenery and vibrant wildlife, making this the best time for exploration.",
+  "minimum_budget": "₹6000. This typically covers local transportation, entry fees, and basic accommodation options. Costs may increase with safari packages or premium lodging.",
+  "min_budget": "6000",
+  "place_type": "trek, fortcave",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.836749049014!2d73.8566144!3d16.7861379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc5c8eeadf91fb3%3A0xdba8c7da07ec6c7!2sRadhanagari%20Wildlife%20Sanctuary!5e0!3m2!1sen!2sin!4v1696246790343!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Radhanagari Wildlife Sanctuary Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 16.2493,
+    "long": 73.9762
+  },
+  "region": "Kolhapur",
+  "images": [
+    "https://i.ibb.co/3mVQW2x/1.jpg",
+    "https://i.ibb.co/9NQdw2R/2.png",
+    "https://i.ibb.co/v4QV4gx/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "Kolhapur Railway Station is the nearest, from where taxis or buses are available to reach the park.",
+    "car": "A drive from Kolhapur (around 50 km) takes about 1.5-2 hours.",
+    "bus": "Regular buses from Kolhapur city to Radhanagari provide convenient access."
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b93c"
+  },
+  "name": "Ratangad Fort trek",
+  "description": "Ratangad, also known as the \"Jewel of Sahyadri,\" is an ancient fort nestled in the Sahyadri mountain range near the Bhandardara region. This fort is believed to be over 2,000 years old, with its roots tracing back to the Maratha Empire. The trek begins from the quaint village of Ratanwadi, home to the 1,000-year-old Amruteshwar Temple, a beautiful example of Hemadpanthi architecture. The trail takes you through dense forests, gurgling streams, and steep ascents, culminating in breathtaking views from the fort. The highlight of the trek is the 'Nedhe' or ‘eye of the needle,’ a natural hole in the rock at the top, offering panoramic vistas of the surrounding peaks like Alang, Madan, Kulang, and Ratangad. The fort also has caves and water cisterns, making it a historical delight for trekkers.",
+  "best_time_to_visit": "September to February",
+  "minimum_budget": "₹4000",
+  "min_budget": "4000",
+  "place_type": "trek , Religious",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3776.6401249527267!2d73.6155339!3d19.3902173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be79ff1f71fbc45%3A0x8f1e8350e1b64fd7!2sRantangad!5e0!3m2!1sen!2sin!4v1696246831245!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Rantangad Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.4811,
+    "long": 73.6644
+  },
+  "region": "Ratanwadi ,Nashik",
+  "images": [
+    "https://i.ibb.co/Mcn741W/1.jpg",
+    "https://i.ibb.co/H2gbQnQ/2.jpg",
+    "https://i.ibb.co/rcwTqzm/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "Nearest railway station is Igatpuri. From there, take a local bus to the base.",
+    "car": "Drive via NH 160 to Igatpuri, then proceed to Ratanwadi.",
+    "bus": "From Mumbai/Pune, take a bus to Igatpuri, then a local bus or jeep to Ratanwadi village."
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b93d"
+  },
+  "name": "Rohida Fort",
+  "description": "Rohida Fort, also known as Bhuikot Fort, is nestled in the Sahyadri ranges near the small village of Rohida. The trek is relatively easy to moderate and offers a peaceful environment away from the crowds. The fort, built during the era of the Marathas, has remnants of ancient structures, including water cisterns and stone walls. The summit provides stunning panoramic views of the surrounding hills and valleys.",
+  "best_time_to_visit": "October to February, when the weather is cool and pleasant, making it ideal for trekking and exploring the fort.",
+  "minimum_budget": "₹2000, which includes transportation from Pune to Bhor and meals during the trek. This budget can vary depending on your choice of food and additional expenses.",
+  "min_budget": "2000",
+  "place_type": "trek , forkcave",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.8243284070806!2d73.7187663!3d19.4052205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c047eb257f71%3A0xe4ec9c764bc6c300!2sRohida%20Fort!5e0!3m2!1sen!2sin!4v1696246881343!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Rohida Fort Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 18.2334,
+    "long": 73.4935
+  },
+  "region": "Rohida , Pune",
+  "images": [
+    "https://i.ibb.co/ncVR02N/1.jpg",
+    "https://i.ibb.co/yqY5zt7/2.jpg",
+    "https://i.ibb.co/syLhXfK/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "The nearest railway station is Mangaon (on the Konkan line). From Mangaon, take a bus or taxi to Pachad.",
+    "car": "Drive via NH66 to Pachad village from Mumbai or Pune.",
+    "bus": "From Mumbai or Pune, take a bus to Mahad. From Mahad, local buses or shared jeeps are available to Pachad village (the base of the trek)"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b93e"
+  },
+  "name": "Shree Kshetra Bhandardara",
+  "description": "Located near the serene Bhandardara lake, Shree Kshetra is a lesser-known pilgrimage site dedicated to Lord Shiva. The temple is surrounded by beautiful hills and lush greenery, providing a peaceful ambiance for devotees. The tranquil environment and the sound of flowing water make it an excellent spot for spiritual contemplation. The temple is visited less frequently than other pilgrimage sites, ensuring a peaceful experience.",
+  "best_time_to_visit": "July to February",
+  "minimum_budget": "₹6000",
+  "min_budget": "6000",
+  "place_type": "religious",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0547350331504!2d73.6967712!3d19.2992677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7f826e92fcd41%3A0xd78dc6633c3e92b6!2sBhandardara%20Lake!5e0!3m2!1sen!2sin!4v1696246931028!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Shree Kshetra Bhandardara Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 19.2281,
+    "long": 73.5315
+  },
+  "transportation_modes": {
+    "train": "Nearest station is Igatpuri (40 km away).",
+    "car": "Accessible via the Ahmednagar-Bhandardara Road.",
+    "bus": "Local buses from Ahmednagar to Bhandardara, with taxis available for the last mile."
+  },
+  "region": "Ahmednagar",
+  "images": [
+    "https://i.ibb.co/9HpM07z/1.jpg",
+    "https://i.ibb.co/jfQC2LF/2.jpg",
+    "https://i.ibb.co/hYs6Kyd/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b93f"
+  },
+  "name": "Varsoli Beach",
+  "description": "Varsoli Beach is a secluded gem near Alibaug, often overshadowed by its popular neighbors. With its quiet, clean shores, it’s an excellent spot for those looking to relax away from the crowds. Lined with coconut trees and offering calm waters, Varsoli is perfect for families and solo travelers alike. The beach is also used by local fishermen, providing a glimpse into the traditional coastal lifestyle. Its peaceful ambiance makes it ideal for a weekend escape.",
+  "best_time_to_visit": "November to March. During these months, the weather is ideal for beach activities, as it is neither too hot nor too humid. The peaceful atmosphere and fewer crowds also make this period perfect for relaxation.",
+  "minimum_budget": "₹7500. With this budget, you can easily cover a short trip including transport, meals, and basic accommodation in Alibaug or nearby areas. Varsoli is relatively affordable with local lodging options suitable for solo travelers or families.",
+  "min_budget": "7500",
+  "place_type": "beach",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.8555352079655!2d73.0256524!3d17.7215083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7dfcb4f10a4cb%3A0x3c8f7a2c6f9e0d6!2sVarsoli%20Beach!5e0!3m2!1sen!2sin!4v1696246971956!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Varsoli Beach Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 18.6453,
+    "long": 72.8742
+  },
+  "transportation_modes": {
+    "train": "Nearest train station is Pen (30 km away). From Pen, local buses or taxis are available to reach Varsoli.",
+    "car": "Accessible by road via NH66. The drive is scenic, passing through the Western Ghats.",
+    "bus": "Direct buses are available to Alibaug from major towns. From Alibaug, local transport can be used to reach Varsoli."
+  },
+  "region": "Raigad,Western Maharashtra (Alibaug)",
+  "images": [
+    "https://i.ibb.co/TrSCGM6/1.jpg",
+    "https://i.ibb.co/tcyzgmG/2.jpg",
+    "https://i.ibb.co/68Hs2t1/3.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b940"
+  },
+  "name": "Velas Beach",
+  "description": "Velas Beach is famous for the conservation efforts of Olive Ridley turtles, where you can witness the magical sight of baby turtles hatching and heading towards the sea. A small, clean, and quiet beach, Velas is an eco-tourism hotspot with scenic beauty and a strong community focus on sustainability. The village of Velas itself offers homestay options, providing an authentic local experience. The beach is surrounded by hills, offering short hikes with incredible views.",
+  "best_time_to_visit": " February to March. This period is the best time to visit Velas Beach if you want to witness the hatching of Olive Ridley turtles, which draws visitors interested in eco-tourism. The weather is also comfortable for exploring the surrounding nature.",
+  "minimum_budget": "₹6500. This budget will suffice for a short, eco-friendly stay in the village with accommodation in homestays, simple meals, and transportation. Velas offers affordable lodging options, making it a great choice for budget-conscious eco-tourists.",
+  "min_budget": "6500",
+  "place_type": "beach",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.612868673879!2d73.5019903!3d17.7674579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e29370d2d89f%3A0x9f59b4c0b52abed1!2sVelas%20Beach!5e0!3m2!1sen!2sin!4v1696247020190!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Velas Beach Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 17.9762,
+    "long": 73.0489
+  },
+  "transportation_modes": {
+    "train": "Nearest train station is Khed (45 km away). From Khed, local buses or taxis are available to reach Velas.",
+    "car": "Accessible by road via NH66. The drive passes through hilly terrain and scenic landscapes.",
+    "bus": "Direct buses are available to Mandangad or Dapoli. From there, local transport can be used to reach Velas."
+  },
+  "region": "Ratnagir,Konkan",
+  "images": [
+    "https://i.ibb.co/wQK39x1/1.jpg",
+    "https://i.ibb.co/2WBjM8K/3.jpg",
+    "https://i.ibb.co/gvtVzRL/2.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff91a0b5aaac5c3808b941"
+  },
+  "name": "Vijaydurg Fort",
+  "description": "Vijaydurg Fort, located on the southwestern coast of Maharashtra, is a magnificent coastal fort known for its strategic location and history. Built by the Marathas, the fort offers stunning views of the Arabian Sea and features massive walls, bastions, and intricate architecture. The fort is less crowded compared to other tourist spots, allowing for a more immersive experience. The serene beach nearby enhances the allure of this historical gem, making it a perfect destination for history lovers and beach enthusiasts.",
+  "best_time_to_visit": " October to March. The winter months provide the best weather for exploring the fort’s vast grounds without the scorching heat or monsoon rains. Visitors can also enjoy the nearby beach during this time, making it a dual attraction for history and nature lovers.",
+  "minimum_budget": "₹7500. This budget will cover basic accommodation, meals, and transportation, including a local guide if needed. Vijaydurg offers affordable stays in homestays or small hotels, perfect for a budget-friendly trip.",
+  "min_budget": "7500",
+  "place_type": "fortcave",
+  "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.1825102793387!2d73.4522945!3d17.5655015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7df65be2a64b1%3A0xc8c6e6b4856d4c10!2sVijaydurg%20Fort!5e0!3m2!1sen!2sin!4v1696247060266!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0; margin: 0; padding: 0;\" alt=\"Vijaydurg Fort Location\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "coordinates": {
+    "lat": 16.8687,
+    "long": 73.6929
+  },
+  "region": "Sindhudurg",
+  "images": [
+    "https://i.ibb.co/kBmcG6T/1.jpg",
+    "https://i.ibb.co/QNB6s1k/2.jpg",
+    "https://i.ibb.co/pLPyw0N/3.jpg"
+  ],
+  "transportation_modes": {
+    "train": "The nearest railway station is Kankavli; from there, hire a taxi or take a local bus.",
+    "car": "Drive via NH 66 to reach the fort.",
+    "bus": "Buses operate from Mumbai and Pune to Vijaydurg."
+  }
+}]
