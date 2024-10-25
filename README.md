@@ -4,19 +4,19 @@
 
 <h5>1. Clone and Unzip the repo</h5>
 <h5>2. Import the TripPlanner DB to your MONGODB</h5>
-<h5>3. Define following variable into .env file
-PORT
-MONGO_URI
-CORS = *
-ACCESS_TOKEN_SECRET
-ACCESS_TOKEN_EXPIRY
-REFRESH_TOKEN_SECRET
-REFRESH_TOKEN_EXPIRY
-CLOUDINARY_CLOUD_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-CLOUDINARY_URL
-GEOAPIFY_API_KEY
+<h5>3. Define following variable into .env file<br>
+PORT<br>
+MONGO_URI<br>
+CORS = *<br>
+ACCESS_TOKEN_SECRET<br>
+ACCESS_TOKEN_EXPIRY<br>
+REFRESH_TOKEN_SECRET<br>
+REFRESH_TOKEN_EXPIRY<br>
+CLOUDINARY_CLOUD_NAME<br>
+CLOUDINARY_API_KEY<br>
+CLOUDINARY_API_SECRET<br>
+CLOUDINARY_URL<br>
+GEOAPIFY_API_KEY<br>
 </h5>
 <h5>2. Open terminal and change directory to the repo "TripPlanner"</h5>
 <h5>3. npm install</h5>
