@@ -22,4 +22,4 @@ GEOAPIFY_API_KEY<br>
 <h5>3. npm install</h5>
 <h5>4. npm run dev</h5>
 
-<h6 style="color:red">Make sure to define api key .env</h6>
+<h6 style="color:red;">Make sure to define api key .env</h6>
