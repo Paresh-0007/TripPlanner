@@ -38,7 +38,7 @@
       document
         .getElementById("login-form")
         .addEventListener("submit", async (event) => {
-          event.preventDefault(); // Prevent the default form submission
+          event.preventDefault();
 
           const email = event.target.email.value;
           const password = event.target.password.value;
@@ -55,13 +55,11 @@
             const data = await response.json();
 
             if (response.ok) {
-              // Handle success (e.g., redirect to dashboard)
-              //localStorage.setItem('userdata', data)
               alert("Login successful");
 
-              window.location.href = "../index.html"; // Replace with your dashboard route
+              window.location.href = "../index.html"; 
             } else {
-              // Handle errors (e.g., invalid credentials)
+              
               alert(data.message || "Login failed");
             }
           } catch (error) {
