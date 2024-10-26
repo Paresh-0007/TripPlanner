@@ -52,7 +52,7 @@ const fillPlaceData = function (placeData) {
   var bestTime = document.getElementById('bestTime')
   var map = document.getElementById('map')
   var region = document.getElementById('region')
-  console.log(placeData)
+  // console.log(placeData)
 
   name.innerText = placeData.data.name;
   img1.src = placeData.data.images[0]
@@ -63,13 +63,13 @@ const fillPlaceData = function (placeData) {
   // img1.style = "height:666px; width:1000px"
   // img2.style = "height:666px; width:1000px"
   // img3.style = "height:666px; width:1000px"
-
+  // console.log(placeData.data.description)
   descriptionTitle.innerText = `About ${placeData.data.name}`
-  description.innerText = placeData.data.description
+  description.innerText = `${placeData.data.description}`
   transport.innerHTML = `<b>By Car : </b><span>${placeData.data.transportation_modes.car}</span><br><b>By Train : </b><span>${placeData.data.transportation_modes.train}</span><br><b>By Bus : </b><span>${placeData.data.transportation_modes.bus}</span>`
-  budget.innerText = placeData.data.minimum_budget
-  bestTime.innerText = placeData.data.best_time_to_visit
-  map.innerHTML = placeData.data.location
+  budget.innerText = `${placeData.data.minimum_budget}`
+  bestTime.innerText = `${placeData.data.best_time_to_visit}`
+  map.innerHTML = `${placeData.data.location}`
   region.innerText = `${placeData.data.name},${placeData.data.region}`
 }
 
